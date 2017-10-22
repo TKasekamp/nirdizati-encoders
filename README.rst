@@ -13,12 +13,10 @@ See example.py for more instructions.
 
 Packaged with the help of http://python-packaging.readthedocs.io/
 
-Run tests with::
+Run tests with
 
-python -m unittest discover
+   python -m unittest discover
 
 or
 
-python setup.py test
-
-::
+    python setup.py test

@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from nirdizati.encoders.tests.setup import data_frame
 from nirdizati.encoders import simple_index
+from nirdizati.encoders.tests.setup import data_frame, sample_trace
 
 
 class TestSimpleIndex(TestCase):
@@ -36,3 +36,25 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(8, row.prefix_1)
         self.assertEqual(0.0, row.elapsed_time)
         self.assertEqual(1447140.0, row.remaining_time)
+
+    def test_encodes_next_activity(self):
+        """Encodes for next activity"""
+        df = simple_index.encode_trace(sample_trace(), next_activity=True)
+
+        # Column check
+        self.assertNotIn("remaining_time", df.columns.values)
+        self.assertNotIn("elapsed_time", df.columns.values)
+        self.assertIn("label", df.columns.values)
+        self.assertIn("prefix_1", df.columns.values)
+        self.assertIn("prefix_2", df.columns.values)
+        self.assertIn("prefix_3", df.columns.values)
+        self.assertEqual((8, 6), df.shape)
+
+        # Checking one row
+        row = df[(df.event_nr == 1) & (df.case_id == 1)].iloc[0]
+        self.assertEqual(0, row.prefix_1)
+        self.assertEqual(0, row.prefix_2)
+        self.assertEqual(0, row.prefix_3)
+        self.assertEqual(1, row.label)
+        self.assertEqual(1, row.case_id)
+        self.assertEqual(1, row.event_nr)
