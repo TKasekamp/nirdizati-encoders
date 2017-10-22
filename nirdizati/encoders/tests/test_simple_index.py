@@ -27,3 +27,15 @@ class TestSimpleIndex(TestCase):
         self.assertIn("prefix_2", df.columns.values)
         self.assertIn("prefix_3", df.columns.values)
         self.assertEqual(7, df.columns.size)
+
+    def test_shape(self):
+        encoder = SimpleIndexEncoder()
+        df = encoder.encode_trace(self.frame)
+
+        self.assertEqual((3, 5), df.shape)
+        # Checking one row
+        row = df[(df.event_nr == 1) & (df.case_id == "Case10")].iloc[0]
+
+        self.assertEqual(8, row.prefix_1)
+        self.assertEqual(0.0, row.elapsed_time)
+        self.assertEqual(1447140.0, row.remaining_time)

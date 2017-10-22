@@ -17,3 +17,15 @@ class TestFrequency(TestCase):
         self.assertIn("remaining_time", df.columns.values)
         self.assertIn("elapsed_time", df.columns.values)
         self.assertEqual(16, df.columns.size)
+
+    def test_shape(self):
+        encoder = FrequencyEncoder()
+        df = encoder.encode_trace(self.frame)
+
+        self.assertEqual((108, 16), df.shape)
+        # Checking one row
+        row = df[(df.event_nr == 1) & (df.case_id == "Case10")].iloc[0]
+
+        self.assertEqual(1, row['Turning & Milling - Machine 9'])
+        self.assertEqual(0.0, row.elapsed_time)
+        self.assertEqual(1447140.0, row.remaining_time)

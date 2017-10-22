@@ -1,6 +1,8 @@
 Nirdizati encoders
 --------
 
+Requires pip to install dependencies.
+
 Import and use SimpleIndexEncoder::
 
     >>> from nirdizati.encoders import SimpleIndexEncoder
@@ -13,6 +15,10 @@ See example.py for more instructions.
 Packaged with the help of http://python-packaging.readthedocs.io/
 
 Run tests with::
+
+python -m unittest discover
+
+or
 
 python setup.py test
 
