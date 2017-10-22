@@ -1,8 +1,15 @@
 from setuptools import setup
 
+
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
+
 setup(name='nirdizati.encoders',
       version='0.1',
       description='Encoders for Nirdizati training',
+      long_description=readme(),
       url='https://github.com/nirdizati/nirdizati-encoders',
       author='TKasekamp',
       packages=['nirdizati.encoders'],
