@@ -1,14 +1,9 @@
-import csv
-import datetime
-import json
-import time
-import encoder
-from os.path import isfile
-
 import pandas as pd
-import numpy as np
 
-class SimpleIndexEncoder:
+import encoder
+
+
+class ComplexEncoder:
 
 	def __init__(self):
 		self.log = None
@@ -16,7 +11,7 @@ class SimpleIndexEncoder:
 	def set_log(self, log):
 		self.log = log
 
-	def encode_trace(self, data, prefix_length=1):
+	def encode_trace(self, data, additional_columns=None, prefix_length=1):
 		data_encoder = encoder.Encoder()
 		events = data_encoder.get_events(data).tolist()
 		cases = data_encoder.get_cases(data)
@@ -28,12 +23,17 @@ class SimpleIndexEncoder:
 		columns.append("elapsed_time")
 		for i in range(1, prefix_length+1):
 			columns.append("prefix_"+str(i))
+			for additional_column in additional_columns:
+				columns.append(additional_column+"_"+str(i))
 
 		encoded_data = []
 
 		for case in cases:
 			df = data[data['case_id'] == case]
+
 			event_length = prefix_length
+			# uncomment to encode whole log at each prefix
+			# for event_length in range(1, prefix_length+1):
 			case_data = []
 			case_data.append(case)
 			case_data.append(event_length)
@@ -43,8 +43,12 @@ class SimpleIndexEncoder:
 			case_data.append(elapsed_time)
 
 			case_events = df[df['event_nr'] <= event_length]['activity_name'].tolist()
-			for e in case_events:
-				case_data.append(events.index(e)+1)
+			for index in range(0, len(case_events)):
+				case_data.append(case_events[index])
+				for additional_column in additional_columns:
+					event_attribute = df[df['event_nr'] == (index+1)][additional_column].apply(str).item()
+					case_data.append(event_attribute)
+
 			encoded_data.append(case_data)
 
 		df = pd.DataFrame(columns=columns, data=encoded_data)
