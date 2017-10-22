@@ -1,6 +1,6 @@
 import pandas as pd
 
-from nirdizati.encoders.common import *
+from nirdizati.encoders.helper import *
 
 
 def encode_trace(data, prefix_length=1):

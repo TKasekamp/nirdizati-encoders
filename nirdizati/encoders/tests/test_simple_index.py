@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from nirdizati.encoders.tests.helper import data_frame
+from nirdizati.encoders.tests.setup import data_frame
 from nirdizati.encoders import simple_index
 
 

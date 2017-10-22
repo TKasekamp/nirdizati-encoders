@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from nirdizati.encoders import frequency
-from nirdizati.encoders.tests.helper import data_frame
+from nirdizati.encoders.tests.setup import data_frame
 
 
 class TestFrequency(TestCase):
