@@ -5,8 +5,7 @@ Requires pip to install dependencies.
 
 Import and use SimpleIndexEncoder::
 
-    >>> from nirdizati.encoders import SimpleIndexEncoder
-    >>> simple_index_encoder = SimpleIndexEncoder()
+    >>> from nirdizati.encoders import simple_index_encoder
     >>> encoded_trace = simple_index_encoder.encode_trace(data)
 
 ::

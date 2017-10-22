@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from nirdizati.encoders import BooleanEncoder
+from nirdizati.encoders import boolean
 from nirdizati.encoders.tests.helper import data_frame
 
 
@@ -9,8 +9,7 @@ class TestBoolean(TestCase):
         self.frame = data_frame()
 
     def test_has_columns(self):
-        encoder = BooleanEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = boolean.encode_trace(self.frame)
         # Column check
         self.assertIn("case_id", df.columns.values)
         self.assertIn("event_nr", df.columns.values)
@@ -19,8 +18,7 @@ class TestBoolean(TestCase):
         self.assertEqual(16, df.columns.size)
 
     def test_shape(self):
-        encoder = BooleanEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = boolean.encode_trace(self.frame)
 
         self.assertEqual((108, 16), df.shape)
         # Checking one row
