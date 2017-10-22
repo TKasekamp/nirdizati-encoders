@@ -2,32 +2,27 @@ from nirdizati.encoders import *
 
 
 def boolean_encode(data):
-    encoding_method = BooleanEncoder()
-    encoded_trace = encoding_method.encode_trace(data)
+    encoded_trace = boolean.encode_trace(data)
     return encoded_trace
 
 
 def frequency_encode(data):
-    encoding_method = FrequencyEncoder()
-    encoded_trace = encoding_method.encode_trace(data)
+    encoded_trace = frequency.encode_trace(data)
     return encoded_trace
 
 
 def simple_index_encode(data, prefix):
-    encoding_method = SimpleIndexEncoder()
-    encoded_trace = encoding_method.encode_trace(data, prefix)
+    encoded_trace = simple_index.encode_trace(data, prefix)
     return encoded_trace
 
 
 def index_latest_payload_encode(data, attributes, prefix):
-    encoding_method = IndexLatestPayloadEncoder()
-    encoded_trace = encoding_method.encode_trace(data, attributes, prefix)
+    encoded_trace = index_latest_payload.encode_trace(data, attributes, prefix)
     return encoded_trace
 
 
 def complex_encode(data, attributes, prefix):
-    encoding_method = ComplexEncoder()
-    encoded_trace = encoding_method.encode_trace(data, attributes, prefix)
+    encoded_trace = complex.encode_trace(data, attributes, prefix)
     return encoded_trace
 
 

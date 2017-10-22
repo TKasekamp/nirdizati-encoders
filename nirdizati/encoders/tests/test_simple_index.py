@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from nirdizati.encoders.tests.helper import data_frame
-from nirdizati.encoders import SimpleIndexEncoder
+from nirdizati.encoders.tests.setup import data_frame
+from nirdizati.encoders import simple_index
 
 
 class TestSimpleIndex(TestCase):
@@ -9,8 +9,7 @@ class TestSimpleIndex(TestCase):
         self.frame = data_frame()
 
     def test_has_columns(self):
-        encoder = SimpleIndexEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = simple_index.encode_trace(self.frame)
         # Column check
         self.assertIn("case_id", df.columns.values)
         self.assertIn("event_nr", df.columns.values)
@@ -20,8 +19,7 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(5, df.columns.size)
 
     def test_prefix_length(self):
-        encoder = SimpleIndexEncoder()
-        df = encoder.encode_trace(self.frame, 3)
+        df = simple_index.encode_trace(self.frame, 3)
         # Column check
         self.assertIn("prefix_1", df.columns.values)
         self.assertIn("prefix_2", df.columns.values)
@@ -29,8 +27,7 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(7, df.columns.size)
 
     def test_shape(self):
-        encoder = SimpleIndexEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = simple_index.encode_trace(self.frame)
 
         self.assertEqual((3, 5), df.shape)
         # Checking one row

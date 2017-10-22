@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from nirdizati.encoders import FrequencyEncoder
-from nirdizati.encoders.tests.helper import data_frame
+from nirdizati.encoders import frequency
+from nirdizati.encoders.tests.setup import data_frame
 
 
 class TestFrequency(TestCase):
@@ -9,8 +9,7 @@ class TestFrequency(TestCase):
         self.frame = data_frame()
 
     def test_has_columns(self):
-        encoder = FrequencyEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = frequency.encode_trace(self.frame)
         # Column check
         self.assertIn("case_id", df.columns.values)
         self.assertIn("event_nr", df.columns.values)
@@ -19,8 +18,7 @@ class TestFrequency(TestCase):
         self.assertEqual(16, df.columns.size)
 
     def test_shape(self):
-        encoder = FrequencyEncoder()
-        df = encoder.encode_trace(self.frame)
+        df = frequency.encode_trace(self.frame)
 
         self.assertEqual((108, 16), df.shape)
         # Checking one row
