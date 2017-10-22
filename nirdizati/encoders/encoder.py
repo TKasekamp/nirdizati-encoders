@@ -11,6 +11,7 @@ class Encoder:
         self.cases = None
         self.event_attributes = None
         self.case_attributes = None
+        self.path = None
 
     def read_csv(self, filename):
         self.df = pd.read_csv(filepath_or_buffer=filename, header=0)
@@ -56,7 +57,7 @@ class Encoder:
 
     def get_xes_traces(self, xes):
         filename = xes
-        if self.path != None:
+        if self.path is not None:
             filename = self.path + "/" + xes
         obj = untangle.parse(filename)
         return obj.log.trace
@@ -88,7 +89,7 @@ class Encoder:
                     activity_name = event.string['value']
 
                 event_timestamp = self.get_timestamp_from_event(event)
-                if event_timestamp == None:
+                if event_timestamp is None:
                     continue
 
                 row_value = [case_id, event_nr, event_timestamp, activity_name]
