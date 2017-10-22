@@ -2,16 +2,13 @@ from unittest import TestCase
 
 from nirdizati.encoders import IndexLatestPayloadEncoder
 from nirdizati.encoders import Encoder
+from nirdizati.encoders.tests.helper import data_frame, get_encoder
 
 
 class TestIndexLatestPayload(TestCase):
     def setUp(self):
-        encoder = Encoder()
-        encoder.set_path('./log')
-        filename = 'Productiontrim.xes'
-        encoder.xes_to_csv(filename)
-        self.frame = encoder.df
-        self.attributes = encoder.event_attributes
+        self.frame = data_frame()
+        self.attributes = get_encoder().event_attributes
 
     def test_has_columns(self):
         encoder = IndexLatestPayloadEncoder()
