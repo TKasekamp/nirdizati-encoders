@@ -14,4 +14,6 @@ setup(name='nirdizati.encoders',
       author='TKasekamp',
       packages=['nirdizati.encoders'],
       install_requires=['pandas==0.19.2', 'numpy==1.12.0', 'untangle==1.1.0'],
+      test_suite='nose.collector',
+      tests_require=['nose'],
       zip_safe=False)
