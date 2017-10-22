@@ -8,6 +8,7 @@ Import and use SimpleIndexEncoder::
     >>> encoded_trace = simple_index_encoder.encode_trace(data)
 
 ::
+See example.py for more instructions.
 
 Packaged with the help of http://python-packaging.readthedocs.io/
 
