@@ -6,4 +6,5 @@ setup(name='nirdizati.encoders',
       url='https://github.com/nirdizati/nirdizati-encoders',
       author='TKasekamp',
       packages=['nirdizati.encoders'],
+      install_requires=['pandas==0.19.2', 'numpy==1.12.0', 'untangle==1.1.0'],
       zip_safe=False)
