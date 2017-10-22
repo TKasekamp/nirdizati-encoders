@@ -1,6 +1,4 @@
 import datetime
-from datetime import datetime as dt
-from os.path import isfile
 
 import pandas as pd
 import untangle
@@ -17,14 +15,6 @@ class Encoder:
     def read_csv(self, filename):
         self.df = pd.read_csv(filepath_or_buffer=filename, header=0)
         return self.df
-
-    def get_events(self, df):
-        self.events = df['activity_name'].unique()
-        return self.events
-
-    def get_cases(self, df):
-        self.cases = df['case_id'].unique()
-        return self.cases
 
     def set_path(self, path):
         self.path = path
@@ -133,20 +123,6 @@ class Encoder:
 
         timestamp = datetime.datetime.strptime(date_time[0:19], "%Y-%m-%dT%H:%M:%S")
         return timestamp
-
-    def calculate_remaining_time(self, trace, event_nr):
-        event_timestamp = trace[trace["event_nr"] == event_nr]['time'].apply(str).item()
-        event_timestamp = dt.strptime(event_timestamp, "%Y-%m-%d %H:%M:%S")
-        last_event_timestamp = trace[trace["event_nr"] == len(trace)]['time'].apply(str).item()
-        last_event_timestamp = dt.strptime(last_event_timestamp, "%Y-%m-%d %H:%M:%S")
-        return (last_event_timestamp - event_timestamp).total_seconds()
-
-    def calculate_elapsed_time(self, trace, event_nr):
-        event_timestamp = trace[trace["event_nr"] == event_nr]['time'].apply(str).item()
-        event_timestamp = dt.strptime(event_timestamp, "%Y-%m-%d %H:%M:%S")
-        first_event_timestamp = trace[trace["event_nr"] == 1]['time'].apply(str).item()
-        first_event_timestamp = dt.strptime(first_event_timestamp, "%Y-%m-%d %H:%M:%S")
-        return (event_timestamp - first_event_timestamp).total_seconds()
 
     def write_df_to_csv(self, df, filename):
         df.to_csv(filename, sep=',', mode='w+', index=False)
