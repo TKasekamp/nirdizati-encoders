@@ -1,7 +1,7 @@
 from datetime import datetime as dt
 
 TIME_FORMAT = "%Y-%m-%d %H:%M:%S"
-
+DEFAULT_COLUMNS = ["case_id", "event_nr", "remaining_time", "elapsed_time"]
 
 def get_events(df):
     return df['activity_name'].unique()

@@ -8,8 +8,7 @@ def encode_trace(data):
     events = get_events(data)
     cases = get_cases(data)
 
-    columns = events
-    columns = np.append(events, ["case_id", "event_nr", "remaining_time", "elapsed_time"])
+    columns = np.append(events, list(DEFAULT_COLUMNS))
     encoded_data = pd.DataFrame(columns=columns)
 
     i = 0

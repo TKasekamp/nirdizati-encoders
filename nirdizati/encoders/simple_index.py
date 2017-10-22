@@ -7,14 +7,7 @@ def encode_trace(data, prefix_length=1):
     events = get_events(data).tolist()
     cases = get_cases(data)
 
-    columns = []
-    columns.append("case_id")
-    columns.append("event_nr")
-    columns.append("remaining_time")
-    columns.append("elapsed_time")
-    for i in range(1, prefix_length + 1):
-        columns.append("prefix_" + str(i))
-
+    columns = __create_columns(prefix_length)
     encoded_data = []
 
     for case in cases:
@@ -35,3 +28,10 @@ def encode_trace(data, prefix_length=1):
 
     df = pd.DataFrame(columns=columns, data=encoded_data)
     return df
+
+
+def __create_columns(prefix_length):
+    columns = list(DEFAULT_COLUMNS)
+    for i in range(1, prefix_length + 1):
+        columns.append("prefix_" + str(i))
+    return columns
