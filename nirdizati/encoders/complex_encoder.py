@@ -10,7 +10,7 @@ class ComplexEncoder:
     def set_log(self, log):
         self.log = log
 
-    def encode_trace(self, data, additional_columns=None, prefix_length=1):
+    def encode_trace(self, data, additional_columns, prefix_length=1):
         data_encoder = encoder.Encoder()
         events = data_encoder.get_events(data).tolist()
         cases = data_encoder.get_cases(data)
