@@ -1,15 +1,12 @@
 from unittest import TestCase
 
 from nirdizati.encoders import simple_index
-from nirdizati.encoders.tests.setup import data_frame, sample_trace
+from nirdizati.encoders.tests.setup import data_frame, sample_trace, prod_xes
 
 
 class TestSimpleIndex(TestCase):
-    def setUp(self):
-        self.frame = data_frame()
-
     def test_has_columns(self):
-        df = simple_index.encode_trace(self.frame)
+        df = simple_index.encode_trace(prod_xes())
         # Column check
         self.assertIn("case_id", df.columns.values)
         self.assertIn("event_nr", df.columns.values)
@@ -19,17 +16,19 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(5, df.columns.size)
 
     def test_prefix_length(self):
-        df = simple_index.encode_trace(self.frame, 3)
-        # Column check
+        df = simple_index.encode_trace(prod_xes(), prefix_length=5)
+
+       # print df
         self.assertIn("prefix_1", df.columns.values)
         self.assertIn("prefix_2", df.columns.values)
         self.assertIn("prefix_3", df.columns.values)
         self.assertEqual(7, df.columns.size)
+        self.assertEqual((3, 7), df.shape)
 
     def test_shape(self):
-        df = simple_index.encode_trace(self.frame)
+        df = simple_index.encode_trace(prod_xes())
 
-        self.assertEqual((3, 5), df.shape)
+        self.assertEqual((29, 5), df.shape)
         # Checking one row
         row = df[(df.event_nr == 1) & (df.case_id == "Case10")].iloc[0]
 
@@ -37,10 +36,12 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(0.0, row.elapsed_time)
         self.assertEqual(1447140.0, row.remaining_time)
 
-    def test_encodes_next_activity(self):
+    def encodes_next_activity(self):
         """Encodes for next activity"""
-        df = simple_index.encode_trace(sample_trace(), next_activity=True)
+        df = simple_index.encode_trace(prod_xes(), prefix_length=2,  next_activity=True)
 
+       # print df
+        self.assertEqual((4, 6), df.shape)
         # Column check
         self.assertNotIn("remaining_time", df.columns.values)
         self.assertNotIn("elapsed_time", df.columns.values)
@@ -48,7 +49,6 @@ class TestSimpleIndex(TestCase):
         self.assertIn("prefix_1", df.columns.values)
         self.assertIn("prefix_2", df.columns.values)
         self.assertIn("prefix_3", df.columns.values)
-        self.assertEqual((8, 6), df.shape)
 
         # Checking one row
         row = df[(df.event_nr == 1) & (df.case_id == 1)].iloc[0]

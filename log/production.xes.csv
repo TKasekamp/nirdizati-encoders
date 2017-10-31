@@ -1,0 +1,1005 @@
+case_id,event_nr,time,activity_name
+Case1,1,2012-01-29 23:24:00,Turning & Milling - Machine 4
+Case1,2,2012-01-30 05:43:00,Turning & Milling - Machine 4
+Case1,3,2012-01-30 05:44:00,Turning & Milling - Machine 4
+Case1,4,2012-01-30 06:42:00,Turning & Milling - Machine 4
+Case1,5,2012-01-30 06:59:00,Turning & Milling - Machine 4
+Case1,6,2012-01-30 07:21:00,Turning & Milling - Machine 4
+Case1,7,2012-01-30 07:21:00,Turning & Milling - Machine 4
+Case1,8,2012-01-30 10:58:00,Turning & Milling - Machine 4
+Case1,9,2012-01-31 13:20:00,Turning & Milling Q.C.
+Case1,10,2012-01-31 14:50:00,Turning & Milling Q.C.
+Case1,11,2012-02-01 08:18:00,Laser Marking - Machine 7
+Case1,12,2012-02-01 08:27:00,Laser Marking - Machine 7
+Case1,13,2012-02-14 00:00:00,Lapping - Machine 1
+Case1,14,2012-02-14 00:00:00,Lapping - Machine 1
+Case1,15,2012-02-14 01:15:00,Lapping - Machine 1
+Case1,16,2012-02-14 01:15:00,Lapping - Machine 1
+Case1,17,2012-02-14 09:05:00,Lapping - Machine 1
+Case1,18,2012-02-14 09:05:00,Lapping - Machine 1
+Case1,19,2012-02-14 09:13:00,Round Grinding - Machine 3
+Case1,20,2012-02-14 09:38:00,Lapping - Machine 1
+Case1,21,2012-02-14 10:20:00,Lapping - Machine 1
+Case1,22,2012-02-14 13:37:00,Round Grinding - Machine 3
+Case1,23,2012-02-14 13:37:00,Round Grinding - Machine 3
+Case1,24,2012-02-14 15:27:00,Round Grinding - Machine 3
+Case1,25,2012-02-16 06:59:00,Final Inspection Q.C.
+Case1,26,2012-02-16 07:59:00,Final Inspection Q.C.
+Case1,27,2012-02-16 12:11:00,Final Inspection Q.C.
+Case1,28,2012-02-16 12:43:00,Final Inspection Q.C.
+Case1,29,2012-02-16 13:58:00,Final Inspection Q.C.
+Case1,30,2012-02-16 16:12:00,Final Inspection Q.C.
+Case1,31,2012-02-17 00:00:00,Packing
+Case1,32,2012-02-17 01:00:00,Packing
+Case10,1,2012-01-17 07:01:00,Turning & Milling - Machine 9
+Case10,2,2012-01-17 11:00:00,Turning Q.C.
+Case10,3,2012-01-17 11:05:00,Turning & Milling - Machine 9
+Case10,4,2012-01-17 11:15:00,Turning Q.C.
+Case10,5,2012-01-17 19:24:00,Turning & Milling - Machine 9
+Case10,6,2012-01-17 20:01:00,Turning & Milling - Machine 9
+Case10,7,2012-01-17 20:01:00,Turning & Milling - Machine 9
+Case10,8,2012-01-17 23:43:00,Turning & Milling - Machine 9
+Case10,9,2012-01-17 23:49:00,Turning & Milling - Machine 9
+Case10,10,2012-01-18 06:32:00,Turning & Milling - Machine 9
+Case10,11,2012-01-18 06:59:00,Turning & Milling - Machine 9
+Case10,12,2012-01-18 07:24:00,Turning & Milling - Machine 9
+Case10,13,2012-01-18 16:33:00,Turning & Milling - Machine 9
+Case10,14,2012-01-18 17:55:00,Turning & Milling - Machine 9
+Case10,15,2012-01-18 17:57:00,Turning & Milling - Machine 9
+Case10,16,2012-01-18 20:04:00,Turning & Milling - Machine 9
+Case10,17,2012-01-18 20:10:00,Turning & Milling - Machine 9
+Case10,18,2012-01-19 06:29:00,Turning & Milling - Machine 9
+Case10,19,2012-01-19 16:12:00,Turning & Milling - Machine 9
+Case10,20,2012-01-19 18:09:00,Turning & Milling - Machine 9
+Case10,21,2012-01-19 18:10:00,Turning & Milling - Machine 9
+Case10,22,2012-01-19 20:08:00,Turning & Milling - Machine 9
+Case10,23,2012-01-19 20:09:00,Turning & Milling - Machine 9
+Case10,24,2012-01-20 05:10:00,Turning & Milling - Machine 9
+Case10,25,2012-01-22 02:42:00,Turning & Milling - Machine 9
+Case10,26,2012-01-22 06:34:00,Turning & Milling - Machine 9
+Case10,27,2012-01-22 07:00:00,Turning & Milling - Machine 9
+Case10,28,2012-01-22 07:13:00,Turning & Milling - Machine 9
+Case10,29,2012-01-22 09:02:00,Turning & Milling - Machine 9
+Case10,30,2012-01-22 17:47:00,Turning & Milling - Machine 9
+Case10,31,2012-01-23 07:54:00,Turning Q.C.
+Case10,32,2012-01-23 10:26:00,Turning Q.C.
+Case10,33,2012-01-25 09:31:00,Laser Marking - Machine 7
+Case10,34,2012-01-25 10:57:00,Laser Marking - Machine 7
+Case10,35,2012-01-25 11:00:00,Laser Marking - Machine 7
+Case10,36,2012-01-25 12:54:00,Laser Marking - Machine 7
+Case10,37,2012-01-25 13:22:00,Laser Marking - Machine 7
+Case10,38,2012-01-25 14:09:00,Laser Marking - Machine 7
+Case10,39,2012-01-27 10:30:00,Flat Grinding - Machine 11
+Case10,40,2012-01-27 13:00:00,Flat Grinding - Machine 11
+Case10,41,2012-01-29 08:09:00,Flat Grinding - Machine 11
+Case10,42,2012-01-29 15:06:00,Flat Grinding - Machine 11
+Case10,43,2012-01-30 15:19:00,Flat Grinding - Machine 11
+Case10,44,2012-01-30 16:59:00,Flat Grinding - Machine 11
+Case10,45,2012-02-02 12:38:00,Final Inspection Q.C.
+Case10,46,2012-02-02 14:16:00,Final Inspection Q.C.
+Case10,47,2012-02-03 00:00:00,Packing
+Case10,48,2012-02-03 01:00:00,Packing
+Case100,1,2012-02-20 17:09:00,Turning & Milling - Machine 8
+Case100,2,2012-02-20 17:57:00,Turning & Milling - Machine 8
+Case100,3,2012-02-20 22:57:00,Turning & Milling - Machine 8
+Case100,4,2012-02-21 02:57:00,Turning & Milling - Machine 8
+Case100,5,2012-02-21 06:45:00,Turning & Milling - Machine 8
+Case100,6,2012-02-21 11:03:00,Turning & Milling - Machine 8
+Case100,7,2012-02-21 11:04:00,Turning & Milling - Machine 8
+Case100,8,2012-02-21 12:08:00,Turning & Milling - Machine 8
+Case100,9,2012-02-22 14:48:00,Turning & Milling Q.C.
+Case100,10,2012-02-22 15:10:00,Turning & Milling Q.C.
+Case100,11,2012-03-11 11:05:00,Laser Marking - Machine 7
+Case100,12,2012-03-11 11:06:00,Laser Marking - Machine 7
+Case100,13,2012-03-11 12:23:00,Flat Grinding - Machine 11
+Case100,14,2012-03-11 12:45:00,Flat Grinding - Machine 11
+Case100,15,2012-03-11 12:46:00,Lapping - Machine 1
+Case100,16,2012-03-11 13:18:00,Lapping - Machine 1
+Case100,17,2012-03-13 10:34:00,Round Grinding - Machine 3
+Case100,18,2012-03-13 10:41:00,Round Grinding - Machine 3
+Case100,19,2012-03-13 10:41:00,Round Grinding - Machine 3
+Case100,20,2012-03-13 15:12:00,Round Grinding - Machine 3
+Case100,21,2012-03-16 11:30:00,Grinding Rework - Machine 12
+Case100,22,2012-03-16 12:40:00,Grinding Rework - Machine 12
+Case100,23,2012-03-19 11:21:00,Final Inspection Q.C.
+Case100,24,2012-03-19 14:06:00,Final Inspection Q.C.
+Case100,25,2012-03-21 00:00:00,Packing
+Case100,26,2012-03-21 01:00:00,Packing
+Case100,27,2012-03-21 07:02:00,Final Inspection Q.C.
+Case100,28,2012-03-21 07:03:00,Final Inspection Q.C.
+Case101,1,2012-03-13 18:47:00,Setup - Machine 8
+Case101,2,2012-03-13 20:03:00,Setup - Machine 8
+Case101,3,2012-03-13 20:38:00,Turning & Milling - Machine 8
+Case101,4,2012-03-13 23:03:00,Turning & Milling - Machine 8
+Case101,5,2012-03-13 23:04:00,Turning & Milling - Machine 8
+Case101,6,2012-03-13 23:49:00,Turning & Milling - Machine 8
+Case101,7,2012-03-13 23:50:00,Turning & Milling - Machine 8
+Case101,8,2012-03-14 01:06:00,Turning & Milling - Machine 8
+Case101,9,2012-03-14 01:06:00,Turning & Milling - Machine 8
+Case101,10,2012-03-14 06:28:00,Turning & Milling - Machine 8
+Case101,11,2012-03-14 07:02:00,Turning & Milling - Machine 8
+Case101,12,2012-03-14 07:48:00,Turning & Milling - Machine 8
+Case101,13,2012-03-14 07:49:00,Turning & Milling - Machine 8
+Case101,14,2012-03-14 11:10:00,Turning & Milling - Machine 8
+Case101,15,2012-03-14 11:11:00,Turning & Milling - Machine 8
+Case101,16,2012-03-14 13:30:00,Turning & Milling - Machine 8
+Case101,17,2012-03-14 13:33:00,Turning & Milling Q.C.
+Case101,18,2012-03-14 14:48:00,Turning & Milling Q.C.
+Case101,19,2012-03-15 09:55:00,Flat Grinding - Machine 11
+Case101,20,2012-03-15 10:55:00,Flat Grinding - Machine 11
+Case101,21,2012-03-23 11:00:00,Lapping - Machine 1
+Case101,22,2012-03-23 12:40:00,Lapping - Machine 1
+Case101,23,2012-03-24 22:15:00,Round Grinding - Machine 12
+Case101,24,2012-03-24 23:45:00,Round Grinding - Machine 12
+Case101,25,2012-03-24 23:45:00,Round Grinding - Machine 12
+Case101,26,2012-03-25 06:45:00,Round Grinding - Machine 12
+Case101,27,2012-03-25 06:50:00,Final Inspection Q.C.
+Case101,28,2012-03-25 10:00:00,Lapping - Machine 1
+Case101,29,2012-03-25 11:00:00,Lapping - Machine 1
+Case101,30,2012-03-25 11:15:00,Laser Marking - Machine 7
+Case101,31,2012-03-25 11:29:00,Laser Marking - Machine 7
+Case101,32,2012-03-25 11:31:00,Final Inspection Q.C.
+Case101,33,2012-03-26 00:00:00,Packing
+Case101,34,2012-03-26 01:00:00,Packing
+Case102,1,2012-02-27 16:40:00,Turning & Milling - Machine 8
+Case102,2,2012-02-27 21:09:00,Turning & Milling - Machine 8
+Case102,3,2012-02-27 21:46:00,Turning & Milling - Machine 8
+Case102,4,2012-02-28 01:23:00,Turning & Milling - Machine 8
+Case102,5,2012-02-28 11:00:00,Turning & Milling - Machine 8
+Case102,6,2012-02-28 13:26:00,Turning & Milling - Machine 8
+Case102,7,2012-02-28 14:20:00,Turning & Milling - Machine 8
+Case102,8,2012-02-28 14:35:00,Turning & Milling Q.C.
+Case102,9,2012-02-28 15:25:00,Turning & Milling Q.C.
+Case102,10,2012-02-28 16:12:00,Turning & Milling - Machine 8
+Case102,11,2012-02-28 16:12:00,Turning & Milling - Machine 8
+Case102,12,2012-02-28 17:56:00,Turning & Milling - Machine 8
+Case102,13,2012-02-28 21:28:00,Turning & Milling - Machine 8
+Case102,14,2012-02-29 01:29:00,Turning & Milling - Machine 8
+Case102,15,2012-02-29 01:30:00,Turning & Milling - Machine 8
+Case102,16,2012-02-29 04:31:00,Turning & Milling - Machine 8
+Case102,17,2012-02-29 07:32:00,Turning & Milling - Machine 8
+Case102,18,2012-02-29 11:05:00,Turning & Milling - Machine 8
+Case102,19,2012-02-29 11:05:00,Turning & Milling - Machine 8
+Case102,20,2012-02-29 15:00:00,Turning & Milling Q.C.
+Case102,21,2012-02-29 16:00:00,Turning & Milling - Machine 8
+Case102,22,2012-02-29 16:00:00,Turning & Milling Q.C.
+Case102,23,2012-02-29 16:00:00,Turning & Milling - Machine 8
+Case102,24,2012-02-29 16:04:00,Turning & Milling Q.C.
+Case102,25,2012-02-29 16:36:00,Turning & Milling Q.C.
+Case102,26,2012-02-29 17:19:00,Turning & Milling - Machine 8
+Case102,27,2012-02-29 17:20:00,Turning & Milling - Machine 8
+Case102,28,2012-02-29 17:48:00,Turning & Milling - Machine 8
+Case102,29,2012-02-29 22:27:00,Turning & Milling - Machine 8
+Case102,30,2012-03-01 00:11:00,Turning & Milling - Machine 8
+Case102,31,2012-03-01 09:30:00,Turning & Milling Q.C.
+Case102,32,2012-03-01 10:49:00,Turning & Milling Q.C.
+Case102,33,2012-03-06 00:00:00,Turning & Milling Q.C.
+Case102,34,2012-03-06 01:15:00,Turning & Milling Q.C.
+Case102,35,2012-03-08 13:32:00,Laser Marking - Machine 7
+Case102,36,2012-03-08 14:41:00,Laser Marking - Machine 7
+Case102,37,2012-03-09 00:00:00,Lapping - Machine 1
+Case102,38,2012-03-09 01:15:00,Lapping - Machine 1
+Case102,39,2012-03-11 09:38:00,Lapping - Machine 1
+Case102,40,2012-03-11 11:04:00,Lapping - Machine 1
+Case102,41,2012-03-11 19:25:00,Round Grinding - Manual
+Case102,42,2012-03-11 20:00:00,Round Grinding - Manual
+Case102,43,2012-03-11 20:00:00,Round Grinding - Manual
+Case102,44,2012-03-11 23:40:00,Round Grinding - Manual
+Case102,45,2012-03-12 07:03:00,Round Grinding - Machine 3
+Case102,46,2012-03-12 07:50:00,Round Grinding - Q.C.
+Case102,47,2012-03-12 08:02:00,Round Grinding - Machine 3
+Case102,48,2012-03-12 08:04:00,Round Grinding - Machine 3
+Case102,49,2012-03-12 08:09:00,Round Grinding - Machine 3
+Case102,50,2012-03-12 08:09:00,Round Grinding - Q.C.
+Case102,51,2012-03-12 08:10:00,Round Grinding - Machine 3
+Case102,52,2012-03-12 10:00:00,Round Grinding - Q.C.
+Case102,53,2012-03-12 10:57:00,Round Grinding - Q.C.
+Case102,54,2012-03-12 10:58:00,Round Grinding - Machine 3
+Case102,55,2012-03-12 14:00:00,Final Inspection Q.C.
+Case102,56,2012-03-12 17:00:00,Final Inspection Q.C.
+Case102,57,2012-03-13 08:00:00,Final Inspection Q.C.
+Case102,58,2012-03-13 08:06:00,Final Inspection Q.C.
+Case102,59,2012-03-14 00:00:00,Packing
+Case102,60,2012-03-14 01:00:00,Packing
+Case103,1,2012-03-06 09:10:00,Turning & Milling - Machine 8
+Case103,2,2012-03-06 10:18:00,Turning & Milling - Machine 8
+Case103,3,2012-03-08 04:19:00,Turning & Milling - Machine 8
+Case103,4,2012-03-08 06:51:00,Turning & Milling - Machine 8
+Case103,5,2012-03-08 10:04:00,Turning & Milling - Machine 8
+Case103,6,2012-03-08 16:38:00,Turning & Milling - Machine 8
+Case103,7,2012-03-08 20:24:00,Turning & Milling - Machine 8
+Case103,8,2012-03-09 04:35:00,Turning & Milling - Machine 8
+Case103,9,2012-03-09 04:35:00,Turning & Milling - Machine 8
+Case103,10,2012-03-09 07:27:00,Turning & Milling - Machine 8
+Case103,11,2012-03-09 07:32:00,Turning & Milling Q.C.
+Case103,12,2012-03-09 07:32:00,Turning & Milling - Machine 8
+Case103,13,2012-03-09 10:27:00,Turning & Milling - Machine 8
+Case103,14,2012-03-09 10:38:00,Turning & Milling Q.C.
+Case103,15,2012-03-11 07:42:00,Turning & Milling Q.C.
+Case103,16,2012-03-11 08:16:00,Turning & Milling Q.C.
+Case103,17,2012-03-11 09:03:00,Turning & Milling - Machine 8
+Case103,18,2012-03-11 10:37:00,Turning & Milling - Machine 8
+Case103,19,2012-03-11 10:37:00,Turning & Milling - Machine 8
+Case103,20,2012-03-11 11:48:00,Turning & Milling - Machine 8
+Case103,21,2012-03-11 11:49:00,Turning & Milling - Machine 8
+Case103,22,2012-03-11 16:09:00,Turning & Milling - Machine 8
+Case103,23,2012-03-11 16:35:00,Turning & Milling - Machine 8
+Case103,24,2012-03-11 18:35:00,Turning & Milling - Machine 8
+Case103,25,2012-03-12 08:27:00,Turning & Milling Q.C.
+Case103,26,2012-03-12 08:28:00,Turning & Milling Q.C.
+Case103,27,2012-03-13 09:54:00,Laser Marking - Machine 7
+Case103,28,2012-03-13 10:46:00,Laser Marking - Machine 7
+Case103,29,2012-03-13 13:27:00,Flat Grinding - Machine 11
+Case103,30,2012-03-13 14:04:00,Flat Grinding - Machine 11
+Case103,31,2012-03-13 14:07:00,Final Inspection Q.C.
+Case103,32,2012-03-13 17:57:00,Final Inspection Q.C.
+Case103,33,2012-03-14 06:58:00,Final Inspection Q.C.
+Case103,34,2012-03-14 10:35:00,Final Inspection Q.C.
+Case103,35,2012-03-14 12:03:00,Final Inspection Q.C.
+Case103,36,2012-03-14 12:04:00,Final Inspection Q.C.
+Case103,37,2012-03-15 00:00:00,Packing
+Case103,38,2012-03-15 01:00:00,Packing
+Case104,1,2012-03-19 20:43:00,Turning & Milling - Machine 5
+Case104,2,2012-03-20 02:26:00,Turning & Milling - Machine 5
+Case104,3,2012-03-20 02:27:00,Turning & Milling - Machine 5
+Case104,4,2012-03-20 06:41:00,Turning & Milling - Machine 5
+Case104,5,2012-03-20 07:00:00,Turning & Milling - Machine 5
+Case104,6,2012-03-20 09:54:00,Turning & Milling Q.C.
+Case104,7,2012-03-20 11:07:00,Turning & Milling - Machine 5
+Case104,8,2012-03-20 11:54:00,Turning & Milling Q.C.
+Case104,9,2012-03-21 06:55:00,Turning & Milling Q.C.
+Case104,10,2012-03-21 07:41:00,Turning & Milling Q.C.
+Case104,11,2012-03-21 09:21:00,Laser Marking - Machine 7
+Case104,12,2012-03-21 09:49:00,Laser Marking - Machine 7
+Case105,1,2012-03-20 23:18:00,Turning & Milling - Machine 4
+Case105,2,2012-03-21 06:34:00,Turning & Milling - Machine 4
+Case105,3,2012-03-21 07:18:00,Turning & Milling - Machine 4
+Case105,4,2012-03-21 10:31:00,Turning & Milling - Machine 4
+Case106,1,2012-03-15 10:14:00,Turning & Milling - Machine 8
+Case106,2,2012-03-15 15:44:00,Turning & Milling - Machine 8
+Case106,3,2012-03-15 16:55:00,Turning & Milling - Machine 8
+Case106,4,2012-03-15 20:38:00,Turning & Milling - Machine 8
+Case106,5,2012-03-19 07:00:00,Turning & Milling Q.C.
+Case106,6,2012-03-19 07:28:00,Turning & Milling Q.C.
+Case106,7,2012-03-19 09:38:00,Laser Marking - Machine 7
+Case106,8,2012-03-19 10:51:00,Laser Marking - Machine 7
+Case106,9,2012-03-19 14:42:00,Flat Grinding - Machine 11
+Case106,10,2012-03-19 15:20:00,Flat Grinding - Machine 11
+Case106,11,2012-03-21 15:27:00,Final Inspection Q.C.
+Case106,12,2012-03-21 17:57:00,Final Inspection Q.C.
+Case106,13,2012-03-22 00:00:00,Packing
+Case106,14,2012-03-22 01:00:00,Packing
+Case106,15,2012-03-22 11:50:00,Final Inspection Q.C.
+Case106,16,2012-03-22 13:05:00,Final Inspection Q.C.
+Case107,1,2012-03-30 06:36:00,Turning & Milling - Machine 10
+Case107,2,2012-03-30 11:47:00,Turning & Milling - Machine 10
+Case108,1,2012-02-27 01:18:00,Turning & Milling - Machine 4
+Case108,2,2012-02-27 06:55:00,Turning & Milling - Machine 4
+Case108,3,2012-02-27 06:59:00,Turning & Milling - Machine 4
+Case108,4,2012-02-27 07:00:00,Turning & Milling Q.C.
+Case108,5,2012-02-27 08:40:00,Turning & Milling Q.C.
+Case108,6,2012-02-27 09:13:00,Turning & Milling - Machine 4
+Case108,7,2012-02-27 09:13:00,Turning & Milling - Machine 4
+Case108,8,2012-02-27 12:38:00,Turning & Milling - Machine 4
+Case108,9,2012-02-28 13:20:00,Turning & Milling Q.C.
+Case108,10,2012-02-28 14:24:00,Turning & Milling Q.C.
+Case108,11,2012-02-28 17:52:00,Laser Marking - Machine 7
+Case108,12,2012-02-28 19:07:00,Laser Marking - Machine 7
+Case108,13,2012-02-29 00:00:00,Flat Grinding - Machine 11
+Case108,14,2012-02-29 01:15:00,Flat Grinding - Machine 11
+Case108,15,2012-02-29 22:05:00,Flat Grinding - Machine 11
+Case108,16,2012-02-29 23:04:00,Flat Grinding - Machine 11
+Case108,17,2012-03-01 02:35:00,Lapping - Machine 1
+Case108,18,2012-03-01 02:36:00,Lapping - Machine 1
+Case108,19,2012-03-01 03:28:00,Lapping - Machine 1
+Case108,20,2012-03-01 03:50:00,Lapping - Machine 1
+Case108,21,2012-03-07 08:30:00,Round Grinding - Machine 3
+Case108,22,2012-03-07 11:16:00,Round Grinding - Machine 3
+Case108,23,2012-03-07 11:18:00,Round Grinding - Machine 3
+Case108,24,2012-03-07 14:10:00,Round Grinding - Machine 3
+Case108,25,2012-03-07 14:12:00,Round Grinding - Machine 3
+Case108,26,2012-03-07 15:56:00,Round Grinding - Machine 3
+Case108,27,2012-03-07 15:57:00,Round Grinding - Machine 3
+Case108,28,2012-03-07 19:30:00,Round Grinding - Machine 3
+Case108,29,2012-03-08 11:00:00,Final Inspection Q.C.
+Case108,30,2012-03-08 15:52:00,Final Inspection Q.C.
+Case108,31,2012-03-09 00:00:00,Packing
+Case108,32,2012-03-09 01:00:00,Packing
+Case108,33,2012-03-09 09:00:00,Final Inspection Q.C.
+Case108,34,2012-03-09 09:27:00,Final Inspection Q.C.
+Case109,1,2012-03-04 11:14:00,Turning & Milling - Machine 4
+Case109,2,2012-03-04 17:52:00,Turning & Milling - Machine 4
+Case109,3,2012-03-04 18:01:00,Turning & Milling - Machine 4
+Case109,4,2012-03-04 23:53:00,Turning & Milling - Machine 4
+Case109,5,2012-03-05 00:00:00,Turning & Milling Q.C.
+Case109,6,2012-03-05 00:03:00,Turning & Milling - Machine 4
+Case109,7,2012-03-05 01:08:00,Turning & Milling - Machine 4
+Case109,8,2012-03-05 01:09:00,Turning & Milling - Machine 4
+Case109,9,2012-03-05 01:15:00,Turning & Milling Q.C.
+Case109,10,2012-03-05 06:43:00,Turning & Milling - Machine 4
+Case109,11,2012-03-05 06:49:00,Turning & Milling - Machine 4
+Case109,12,2012-03-05 07:00:00,Turning & Milling Q.C.
+Case109,13,2012-03-05 08:21:00,Turning & Milling Q.C.
+Case109,14,2012-03-05 09:41:00,Turning & Milling - Machine 4
+Case109,15,2012-03-05 10:18:00,Turning & Milling Q.C.
+Case109,16,2012-03-05 10:23:00,Turning & Milling Q.C.
+Case109,17,2012-03-15 11:05:00,Laser Marking - Machine 7
+Case109,18,2012-03-15 11:26:00,Laser Marking - Machine 7
+Case109,19,2012-03-21 05:03:00,Round Grinding - Machine 2
+Case109,20,2012-03-21 06:22:00,Round Grinding - Machine 2
+Case109,21,2012-03-21 06:23:00,Round Grinding - Machine 2
+Case109,22,2012-03-21 06:49:00,Round Grinding - Machine 2
+Case109,23,2012-03-21 07:34:00,Round Grinding - Machine 2
+Case109,24,2012-03-21 12:08:00,Round Grinding - Machine 2
+Case109,25,2012-03-23 00:40:00,Round Grinding - Machine 2
+Case109,26,2012-03-23 01:33:00,Round Grinding - Machine 2
+Case109,27,2012-03-23 01:34:00,Round Grinding - Machine 2
+Case109,28,2012-03-23 04:08:00,Round Grinding - Machine 2
+Case109,29,2012-03-23 07:25:00,Final Inspection Q.C.
+Case109,30,2012-03-23 10:50:00,Final Inspection Q.C.
+Case109,31,2012-03-25 00:00:00,Packing
+Case109,32,2012-03-25 01:00:00,Packing
+Case11,1,2012-01-15 18:04:00,Turning & Milling - Machine 10
+Case11,2,2012-01-15 23:40:00,Turning & Milling - Machine 10
+Case11,3,2012-01-16 06:59:00,Turning & Milling - Machine 10
+Case11,4,2012-01-16 09:00:00,Turning & Milling Q.C.
+Case11,5,2012-01-16 09:49:00,Turning & Milling - Machine 10
+Case11,6,2012-01-16 09:50:00,Turning & Milling - Machine 10
+Case11,7,2012-01-16 09:54:00,Turning & Milling Q.C.
+Case11,8,2012-01-16 16:22:00,Turning & Milling - Machine 10
+Case11,9,2012-01-16 18:08:00,Turning & Milling - Machine 10
+Case11,10,2012-01-16 23:38:00,Turning & Milling - Machine 10
+Case11,11,2012-01-16 23:39:00,Turning & Milling - Machine 10
+Case11,12,2012-01-17 06:37:00,Turning & Milling - Machine 10
+Case11,13,2012-01-17 10:46:00,Turning & Milling - Machine 10
+Case11,14,2012-01-17 12:01:00,Turning & Milling - Machine 10
+Case11,15,2012-01-18 07:00:00,Turning & Milling Q.C.
+Case11,16,2012-01-18 08:35:00,Turning & Milling - Machine 10
+Case11,17,2012-01-18 08:36:00,Turning & Milling - Machine 10
+Case11,18,2012-01-18 08:38:00,Turning & Milling Q.C.
+Case11,19,2012-01-18 09:50:00,Turning & Milling - Machine 10
+Case11,20,2012-01-18 09:56:00,Turning & Milling - Machine 10
+Case11,21,2012-01-18 09:57:00,Turning & Milling - Machine 10
+Case11,22,2012-01-18 10:14:00,Turning & Milling Q.C.
+Case11,23,2012-01-18 11:29:00,Turning & Milling Q.C.
+Case11,24,2012-01-18 15:32:00,Turning & Milling - Machine 10
+Case11,25,2012-01-19 07:39:00,Turning & Milling - Machine 9
+Case11,26,2012-01-19 09:00:00,Turning & Milling - Machine 9
+Case11,27,2012-01-19 09:01:00,Turning & Milling - Machine 10
+Case11,28,2012-01-19 16:00:00,Turning & Milling - Machine 10
+Case11,29,2012-01-19 16:08:00,Turning & Milling - Machine 10
+Case11,30,2012-01-19 19:21:00,Turning & Milling - Machine 10
+Case11,31,2012-01-22 15:01:00,Laser Marking - Machine 7
+Case11,32,2012-01-22 15:33:00,Laser Marking - Machine 7
+Case11,33,2012-01-23 09:24:00,Turning & Milling Q.C.
+Case11,34,2012-01-23 09:25:00,Turning & Milling Q.C.
+Case11,35,2012-01-24 14:41:00,Laser Marking - Machine 7
+Case11,36,2012-01-24 16:06:00,Laser Marking - Machine 7
+Case11,37,2012-01-25 00:00:00,Packing
+Case11,38,2012-01-25 01:00:00,Packing
+Case11,39,2012-01-25 11:11:00,Final Inspection Q.C.
+Case11,40,2012-01-25 14:09:00,Final Inspection Q.C.
+Case11,41,2012-01-25 14:10:00,Turning & Milling Q.C.
+Case11,42,2012-01-25 14:11:00,Turning & Milling Q.C.
+Case110,1,2012-03-01 03:49:00,Turning & Milling - Machine 6
+Case110,2,2012-03-01 06:35:00,Turning & Milling - Machine 6
+Case110,3,2012-03-01 06:57:00,Turning & Milling - Machine 6
+Case110,4,2012-03-01 10:00:00,Turning & Milling Q.C.
+Case110,5,2012-03-01 11:00:00,Turning & Milling Q.C.
+Case110,6,2012-03-01 12:36:00,Turning & Milling - Machine 6
+Case110,7,2012-03-01 12:37:00,Turning & Milling - Machine 6
+Case110,8,2012-03-01 15:46:00,Turning & Milling - Machine 6
+Case110,9,2012-03-01 20:16:00,Turning & Milling - Machine 6
+Case110,10,2012-03-02 06:27:00,Turning & Milling - Machine 6
+Case110,11,2012-03-02 06:45:00,Turning & Milling - Machine 6
+Case110,12,2012-03-02 12:47:00,Turning & Milling - Machine 6
+Case110,13,2012-03-03 13:00:00,Turning & Milling - Machine 6
+Case110,14,2012-03-03 23:36:00,Turning & Milling - Machine 6
+Case110,15,2012-03-04 00:26:00,Turning & Milling - Machine 6
+Case110,16,2012-03-04 06:46:00,Turning & Milling - Machine 6
+Case110,17,2012-03-04 07:20:00,Turning & Milling Q.C.
+Case110,18,2012-03-04 07:51:00,Turning & Milling Q.C.
+Case110,19,2012-03-06 07:22:00,Turning & Milling Q.C.
+Case110,20,2012-03-06 07:28:00,Turning & Milling - Machine 6
+Case110,21,2012-03-06 07:29:00,Turning & Milling Q.C.
+Case110,22,2012-03-06 07:29:00,Turning & Milling - Machine 6
+Case110,23,2012-03-08 01:08:00,Turning & Milling - Machine 6
+Case110,24,2012-03-08 04:17:00,Turning & Milling - Machine 6
+Case110,25,2012-03-08 07:11:00,Turning & Milling - Machine 6
+Case110,26,2012-03-08 11:37:00,Turning & Milling - Machine 6
+Case110,27,2012-03-08 11:37:00,Turning & Milling - Machine 6
+Case110,28,2012-03-08 15:52:00,Turning & Milling - Machine 6
+Case110,29,2012-03-08 15:54:00,Turning & Milling - Machine 6
+Case110,30,2012-03-08 23:40:00,Turning & Milling - Machine 6
+Case110,31,2012-03-09 01:48:00,Turning & Milling - Machine 6
+Case110,32,2012-03-09 06:50:00,Turning & Milling Q.C.
+Case110,33,2012-03-09 06:51:00,Turning & Milling - Machine 6
+Case110,34,2012-03-09 07:32:00,Turning & Milling Q.C.
+Case110,35,2012-03-09 07:59:00,Turning & Milling - Machine 6
+Case110,36,2012-03-09 12:27:00,Turning & Milling - Machine 6
+Case110,37,2012-03-10 13:00:00,Turning & Milling - Machine 6
+Case110,38,2012-03-10 23:26:00,Turning & Milling - Machine 6
+Case110,39,2012-03-11 06:35:00,Turning & Milling - Machine 6
+Case110,40,2012-03-11 06:55:00,Turning & Milling - Machine 6
+Case110,41,2012-03-11 06:58:00,Turning & Milling Q.C.
+Case110,42,2012-03-11 07:42:00,Turning & Milling Q.C.
+Case110,43,2012-03-11 08:02:00,Turning & Milling Q.C.
+Case110,44,2012-03-11 09:17:00,Turning & Milling Q.C.
+Case110,45,2012-03-11 10:54:00,Turning & Milling - Machine 6
+Case110,46,2012-03-11 16:09:00,Turning & Milling - Machine 6
+Case110,47,2012-03-11 16:11:00,Turning & Milling - Machine 6
+Case110,48,2012-03-11 20:12:00,Turning & Milling - Machine 6
+Case110,49,2012-03-12 08:00:00,Turning & Milling Q.C.
+Case110,50,2012-03-12 08:08:00,Turning & Milling Q.C.
+Case110,51,2012-03-12 08:13:00,Turning & Milling Q.C.
+Case110,52,2012-03-12 09:28:00,Turning & Milling Q.C.
+Case110,53,2012-03-12 09:28:00,Turning & Milling Q.C.
+Case110,54,2012-03-12 09:33:00,Turning & Milling Q.C.
+Case110,55,2012-03-15 23:10:00,Turning & Milling - Machine 6
+Case110,56,2012-03-16 06:47:00,Turning & Milling - Machine 6
+Case110,57,2012-03-16 06:58:00,Turning & Milling Q.C.
+Case110,58,2012-03-16 07:13:00,Turning & Milling - Machine 6
+Case110,59,2012-03-16 08:32:00,Turning & Milling Q.C.
+Case110,60,2012-03-16 12:49:00,Turning & Milling - Machine 6
+Case110,61,2012-03-17 13:24:00,Turning & Milling - Machine 6
+Case110,62,2012-03-17 23:54:00,Turning & Milling - Machine 6
+Case110,63,2012-03-18 02:26:00,Turning & Milling - Machine 6
+Case110,64,2012-03-18 11:30:00,Turning & Milling - Machine 6
+Case110,65,2012-03-19 12:29:00,Laser Marking - Machine 7
+Case110,66,2012-03-19 16:06:00,Laser Marking - Machine 7
+Case110,67,2012-03-19 16:24:00,Flat Grinding - Machine 11
+Case110,68,2012-03-19 17:43:00,Flat Grinding - Machine 11
+Case110,69,2012-03-19 21:29:00,Laser Marking - Machine 7
+Case110,70,2012-03-19 22:32:00,Laser Marking - Machine 7
+Case110,71,2012-03-20 06:52:00,Turning & Milling Q.C.
+Case110,72,2012-03-20 07:16:00,Flat Grinding - Machine 11
+Case110,73,2012-03-20 09:44:00,Turning & Milling Q.C.
+Case110,74,2012-03-20 09:46:00,Lapping - Machine 1
+Case110,75,2012-03-20 11:36:00,Turning & Milling Q.C.
+Case110,76,2012-03-20 11:58:00,Lapping - Machine 1
+Case110,77,2012-03-20 12:13:00,Flat Grinding - Machine 11
+Case110,78,2012-03-20 12:45:00,Turning & Milling Q.C.
+Case110,79,2012-03-20 12:51:00,Turning & Milling Q.C.
+Case110,80,2012-03-20 13:41:00,Turning & Milling Q.C.
+Case110,81,2012-03-22 07:33:00,Turning & Milling - Machine 6
+Case110,82,2012-03-22 11:30:00,Turning & Milling Q.C.
+Case110,83,2012-03-22 11:46:00,Turning & Milling Q.C.
+Case110,84,2012-03-22 11:51:00,Turning & Milling - Machine 6
+Case110,85,2012-03-22 11:51:00,Turning & Milling - Machine 6
+Case110,86,2012-03-22 12:15:00,Lapping - Machine 1
+Case110,87,2012-03-22 13:30:00,Turning & Milling - Machine 6
+Case110,88,2012-03-22 13:42:00,Lapping - Machine 1
+Case110,89,2012-03-22 14:33:00,Lapping - Machine 1
+Case110,90,2012-03-22 16:22:00,Lapping - Machine 1
+Case110,91,2012-03-22 16:22:00,Flat Grinding - Machine 11
+Case110,92,2012-03-22 16:30:00,Turning & Milling - Machine 6
+Case110,93,2012-03-22 17:37:00,Flat Grinding - Machine 11
+Case110,94,2012-03-22 23:30:00,Turning & Milling - Machine 6
+Case110,95,2012-03-23 00:00:00,Lapping - Machine 1
+Case110,96,2012-03-23 01:15:00,Lapping - Machine 1
+Case110,97,2012-03-23 07:03:00,Turning & Milling Q.C.
+Case110,98,2012-03-23 07:12:00,Turning & Milling - Machine 6
+Case110,99,2012-03-23 07:24:00,Turning & Milling Q.C.
+Case110,100,2012-03-23 11:38:00,Lapping - Machine 1
+Case110,101,2012-03-23 11:39:00,Lapping - Machine 1
+Case110,102,2012-03-23 12:42:00,Turning & Milling - Machine 6
+Case110,103,2012-03-23 20:59:00,Turning & Milling - Machine 6
+Case110,104,2012-03-24 07:00:00,Turning & Milling - Machine 6
+Case110,105,2012-03-24 13:33:00,Turning & Milling - Machine 6
+Case110,106,2012-03-24 22:51:00,Turning & Milling - Machine 6
+Case110,107,2012-03-25 04:35:00,Turning & Milling - Machine 6
+Case110,108,2012-03-25 12:58:00,Turning & Milling - Machine 6
+Case110,109,2012-03-26 00:00:00,Lapping - Machine 1
+Case110,110,2012-03-26 01:15:00,Lapping - Machine 1
+Case110,111,2012-03-26 07:03:00,Laser Marking - Machine 7
+Case110,112,2012-03-26 07:16:00,Laser Marking - Machine 7
+Case110,113,2012-03-27 00:00:00,Lapping - Machine 1
+Case110,114,2012-03-27 01:15:00,Lapping - Machine 1
+Case110,115,2012-03-28 09:47:00,Turning & Milling Q.C.
+Case110,116,2012-03-28 09:48:00,Turning & Milling Q.C.
+Case110,117,2012-03-28 13:07:00,Round Grinding - Machine 3
+Case110,118,2012-03-28 13:55:00,Round Grinding - Machine 3
+Case110,119,2012-03-28 14:13:00,Round Grinding - Machine 3
+Case110,120,2012-03-28 15:57:00,Round Grinding - Machine 3
+Case110,121,2012-03-28 16:01:00,Round Grinding - Machine 3
+Case110,122,2012-03-28 20:09:00,Round Grinding - Machine 3
+Case110,123,2012-03-28 20:12:00,Round Grinding - Machine 3
+Case110,124,2012-03-29 00:00:00,Packing
+Case110,125,2012-03-29 00:00:00,Packing
+Case110,126,2012-03-29 01:00:00,Packing
+Case110,127,2012-03-29 01:00:00,Packing
+Case110,128,2012-03-29 05:26:00,Round Grinding - Machine 3
+Case110,129,2012-03-29 05:30:00,Round Grinding - Machine 3
+Case110,130,2012-03-29 06:50:00,Round Grinding - Machine 3
+Case110,131,2012-03-29 06:59:00,Round Grinding - Machine 3
+Case110,132,2012-03-29 08:19:00,Flat Grinding - Machine 11
+Case110,133,2012-03-29 08:20:00,Flat Grinding - Machine 11
+Case110,134,2012-03-29 08:21:00,Lapping - Machine 1
+Case110,135,2012-03-29 09:20:00,Final Inspection Q.C.
+Case110,136,2012-03-29 09:36:00,Lapping - Machine 1
+Case110,137,2012-03-29 09:58:00,Round Grinding - Machine 3
+Case110,138,2012-03-29 10:29:00,Final Inspection Q.C.
+Case110,139,2012-03-29 10:39:00,Round Grinding - Machine 3
+Case110,140,2012-03-29 15:43:00,Round Grinding - Machine 3
+Case110,141,2012-03-29 15:59:00,Round Grinding - Machine 3
+Case110,142,2012-03-29 17:53:00,Round Grinding - Machine 3
+Case110,143,2012-03-30 00:00:00,Packing
+Case110,144,2012-03-30 01:00:00,Packing
+Case110,145,2012-03-30 07:21:00,Final Inspection Q.C.
+Case110,146,2012-03-30 10:28:00,Final Inspection Q.C.
+Case111,1,2012-03-12 21:10:00,Turning - Machine 4
+Case111,2,2012-03-13 00:13:00,Turning - Machine 4
+Case111,3,2012-03-13 00:13:00,Turning - Machine 4
+Case111,4,2012-03-13 06:39:00,Turning - Machine 4
+Case111,5,2012-03-13 07:10:00,Turning - Machine 4
+Case111,6,2012-03-13 16:10:00,Turning - Machine 4
+Case111,7,2012-03-13 16:14:00,Turning - Machine 4
+Case111,8,2012-03-13 19:42:00,Turning - Machine 4
+Case111,9,2012-03-13 19:44:00,Turning - Machine 4
+Case111,10,2012-03-14 06:45:00,Turning - Machine 4
+Case111,11,2012-03-14 06:58:00,Turning - Machine 4
+Case111,12,2012-03-14 10:59:00,Turning - Machine 4
+Case111,13,2012-03-14 13:50:00,Turning Q.C.
+Case111,14,2012-03-14 15:05:00,Turning Q.C.
+Case111,15,2012-03-22 11:14:00,Turning & Milling - Machine 4
+Case111,16,2012-03-22 17:50:00,Turning & Milling - Machine 4
+Case111,17,2012-03-22 20:00:00,Turning & Milling - Machine 4
+Case111,18,2012-03-23 07:00:00,Turning & Milling - Machine 4
+Case111,19,2012-03-23 07:00:00,Turning & Milling - Machine 4
+Case111,20,2012-03-23 07:09:00,Turning - Machine 4
+Case111,21,2012-03-23 12:41:00,Turning & Milling - Machine 4
+Case111,22,2012-03-23 12:41:00,Turning - Machine 4
+Case111,23,2012-03-24 06:31:00,Turning - Machine 4
+Case111,24,2012-03-24 13:51:00,Turning & Milling - Machine 4
+Case111,25,2012-03-24 15:52:00,Turning & Milling - Machine 4
+Case111,26,2012-03-24 15:53:00,Turning - Machine 4
+Case111,27,2012-03-24 22:52:00,Turning & Milling - Machine 4
+Case111,28,2012-03-25 06:45:00,Turning & Milling - Machine 4
+Case111,29,2012-03-25 07:06:00,Turning & Milling - Machine 4
+Case111,30,2012-03-25 15:32:00,Turning & Milling - Machine 4
+Case111,31,2012-03-25 19:54:00,Turning & Milling - Machine 4
+Case111,32,2012-03-26 06:43:00,Turning & Milling - Machine 4
+Case111,33,2012-03-26 07:21:00,Turning & Milling Q.C.
+Case111,34,2012-03-26 09:22:00,Turning & Milling Q.C.
+Case111,35,2012-03-26 15:42:00,Laser Marking - Machine 7
+Case111,36,2012-03-26 16:00:00,Laser Marking - Machine 7
+Case111,37,2012-03-26 16:02:00,Laser Marking - Machine 7
+Case111,38,2012-03-26 17:43:00,Laser Marking - Machine 7
+Case111,39,2012-03-27 00:51:00,Turning & Milling - Machine 4
+Case111,40,2012-03-27 07:00:00,Turning & Milling Q.C.
+Case111,41,2012-03-27 07:00:00,Turning & Milling Q.C.
+Case111,42,2012-03-27 07:35:00,Turning & Milling Q.C.
+Case111,43,2012-03-27 07:52:00,Turning & Milling - Machine 4
+Case111,44,2012-03-27 10:56:00,Turning & Milling - Machine 4
+Case111,45,2012-03-27 10:59:00,Turning & Milling Q.C.
+Case111,46,2012-03-27 11:10:00,Laser Marking - Machine 7
+Case111,47,2012-03-27 13:26:00,Laser Marking - Machine 7
+Case111,48,2012-03-28 06:56:00,Turning & Milling - Machine 4
+Case112,1,2012-03-08 06:13:00,Turning & Milling - Machine 9
+Case112,2,2012-03-08 06:51:00,Turning & Milling - Machine 9
+Case112,3,2012-03-13 14:01:00,Turning & Milling - Machine 9
+Case112,4,2012-03-13 17:48:00,Turning & Milling - Machine 9
+Case112,5,2012-03-13 21:28:00,Turning & Milling - Machine 9
+Case112,6,2012-03-13 23:10:00,Turning & Milling - Machine 9
+Case112,7,2012-03-14 07:00:00,Turning & Milling Q.C.
+Case112,8,2012-03-14 08:15:00,Turning & Milling - Machine 9
+Case112,9,2012-03-14 08:40:00,Turning & Milling Q.C.
+Case112,10,2012-03-14 09:02:00,Turning & Milling - Machine 9
+Case112,11,2012-03-14 09:02:00,Turning & Milling - Machine 9
+Case112,12,2012-03-14 13:21:00,Turning & Milling - Machine 9
+Case112,13,2012-03-14 16:10:00,Turning & Milling - Machine 9
+Case112,14,2012-03-14 17:51:00,Turning & Milling - Machine 9
+Case112,15,2012-03-14 20:43:00,Turning & Milling - Machine 9
+Case112,16,2012-03-15 06:48:00,Turning & Milling - Machine 9
+Case112,17,2012-03-15 08:22:00,Turning & Milling - Machine 9
+Case112,18,2012-03-15 09:43:00,Turning & Milling - Machine 9
+Case112,19,2012-03-15 09:44:00,Turning & Milling - Machine 9
+Case112,20,2012-03-15 17:22:00,Turning & Milling - Machine 9
+Case112,21,2012-03-15 21:04:00,Turning & Milling - Machine 9
+Case112,22,2012-03-16 06:47:00,Turning & Milling - Machine 9
+Case112,23,2012-03-18 03:18:00,Turning & Milling - Machine 9
+Case112,24,2012-03-18 06:50:00,Turning & Milling - Machine 9
+Case112,25,2012-03-18 12:00:00,Turning & Milling Q.C.
+Case112,26,2012-03-18 12:00:00,Turning & Milling Q.C.
+Case112,27,2012-03-18 12:33:00,Turning & Milling Q.C.
+Case112,28,2012-03-18 12:33:00,Turning & Milling Q.C.
+Case112,29,2012-03-18 12:42:00,Laser Marking - Machine 7
+Case112,30,2012-03-18 14:55:00,Laser Marking - Machine 7
+Case112,31,2012-03-18 15:43:00,Lapping - Machine 1
+Case112,32,2012-03-18 18:10:00,Lapping - Machine 1
+Case112,33,2012-03-18 21:38:00,Turning & Milling - Machine 10
+Case112,34,2012-03-19 00:19:00,Turning & Milling - Machine 10
+Case112,35,2012-03-19 00:19:00,Turning & Milling - Machine 10
+Case112,36,2012-03-19 03:10:00,Turning & Milling - Machine 10
+Case112,37,2012-03-19 03:12:00,Turning & Milling - Machine 10
+Case112,38,2012-03-19 06:46:00,Turning & Milling - Machine 10
+Case112,39,2012-03-19 07:26:00,Turning & Milling - Machine 10
+Case112,40,2012-03-19 16:39:00,Turning & Milling - Machine 10
+Case112,41,2012-03-19 21:18:00,Turning & Milling - Machine 10
+Case112,42,2012-03-20 06:48:00,Turning & Milling - Machine 10
+Case112,43,2012-03-20 07:20:00,Turning & Milling - Machine 10
+Case112,44,2012-03-20 11:30:00,Final Inspection Q.C.
+Case112,45,2012-03-20 13:30:00,Final Inspection Q.C.
+Case112,46,2012-03-20 16:00:00,Final Inspection Q.C.
+Case112,47,2012-03-20 16:33:00,Final Inspection Q.C.
+Case112,48,2012-03-20 17:52:00,Turning & Milling - Machine 10
+Case112,49,2012-03-20 21:30:00,Turning & Milling - Machine 10
+Case112,50,2012-03-21 00:00:00,Packing
+Case112,51,2012-03-21 00:00:00,Packing
+Case112,52,2012-03-21 01:00:00,Packing
+Case112,53,2012-03-21 01:00:00,Packing
+Case112,54,2012-03-21 03:29:00,Turning & Milling - Machine 10
+Case112,55,2012-03-21 08:31:00,Turning & Milling Q.C.
+Case112,56,2012-03-21 10:00:00,Turning & Milling Q.C.
+Case112,57,2012-03-21 10:01:00,Laser Marking - Machine 7
+Case112,58,2012-03-21 12:32:00,Laser Marking - Machine 7
+Case112,59,2012-03-21 15:31:00,Turning & Milling - Machine 10
+Case112,60,2012-03-21 17:43:00,Turning & Milling - Machine 10
+Case112,61,2012-03-21 20:29:00,Turning & Milling - Machine 10
+Case112,62,2012-03-22 05:32:00,Turning & Milling - Machine 10
+Case112,63,2012-03-22 07:42:00,Grinding Rework
+Case112,64,2012-03-22 08:42:00,Grinding Rework
+Case112,65,2012-03-22 09:02:00,Grinding Rework
+Case112,66,2012-03-22 10:00:00,Lapping - Machine 1
+Case112,67,2012-03-22 12:22:00,Grinding Rework
+Case112,68,2012-03-22 14:33:00,Lapping - Machine 1
+Case112,69,2012-03-25 09:49:00,Final Inspection Q.C.
+Case112,70,2012-03-25 16:03:00,Final Inspection Q.C.
+Case112,71,2012-03-29 00:00:00,Packing
+Case112,72,2012-03-29 01:00:00,Packing
+Case112,73,2012-03-29 09:00:00,Final Inspection Q.C.
+Case112,74,2012-03-29 09:34:00,Final Inspection Q.C.
+Case113,1,2012-03-15 03:09:00,SETUP     Turning & Milling - Machine 5
+Case113,2,2012-03-15 06:49:00,SETUP     Turning & Milling - Machine 5
+Case113,3,2012-03-15 07:06:00,Turning & Milling - Machine 5
+Case113,4,2012-03-15 15:56:00,Turning & Milling - Machine 5
+Case113,5,2012-03-16 07:03:00,Turning & Milling Q.C.
+Case113,6,2012-03-16 11:04:00,Turning & Milling Q.C.
+Case113,7,2012-03-16 11:15:00,Laser Marking - Machine 7
+Case113,8,2012-03-16 11:39:00,Laser Marking - Machine 7
+Case114,1,2012-02-29 02:03:00,Turning & Milling - Machine 6
+Case114,2,2012-02-29 06:53:00,Turning & Milling - Machine 6
+Case114,3,2012-02-29 06:56:00,Turning & Milling Q.C.
+Case114,4,2012-02-29 07:10:00,Turning & Milling - Machine 6
+Case114,5,2012-02-29 08:01:00,Turning & Milling - Machine 6
+Case114,6,2012-02-29 08:19:00,Turning & Milling Q.C.
+Case114,7,2012-02-29 20:16:00,Turning & Milling - Machine 6
+Case114,8,2012-03-01 03:48:00,Turning & Milling - Machine 6
+Case114,9,2012-03-05 00:00:00,Turning & Milling Q.C.
+Case114,10,2012-03-05 01:15:00,Turning & Milling Q.C.
+Case114,11,2012-03-05 17:40:00,Turning & Milling Q.C.
+Case114,12,2012-03-05 17:41:00,Turning & Milling Q.C.
+Case114,13,2012-03-07 07:56:00,Turning & Milling Q.C.
+Case114,14,2012-03-07 08:04:00,Turning & Milling Q.C.
+Case115,1,2012-03-05 09:41:00,Turning & Milling - Machine 4
+Case115,2,2012-03-05 16:01:00,Turning & Milling - Machine 4
+Case115,3,2012-03-06 00:05:00,Turning & Milling - Machine 4
+Case115,4,2012-03-06 06:29:00,Turning & Milling - Machine 4
+Case115,5,2012-03-06 06:59:00,Turning & Milling - Machine 4
+Case115,6,2012-03-06 08:35:00,Turning & Milling - Machine 4
+Case115,7,2012-03-06 08:35:00,Turning & Milling - Machine 4
+Case115,8,2012-03-06 09:48:00,Turning & Milling - Machine 4
+Case115,9,2012-03-06 09:49:00,Turning & Milling - Machine 4
+Case115,10,2012-03-06 10:30:00,Turning & Milling Q.C.
+Case115,11,2012-03-06 12:00:00,Turning & Milling Q.C.
+Case115,12,2012-03-06 12:00:00,Turning & Milling Q.C.
+Case115,13,2012-03-06 12:50:00,Turning & Milling Q.C.
+Case115,14,2012-03-06 13:48:00,Turning & Milling - Machine 4
+Case115,15,2012-03-08 14:46:00,Flat Grinding - Machine 11
+Case115,16,2012-03-08 15:52:00,Flat Grinding - Machine 11
+Case115,17,2012-03-09 00:00:00,Flat Grinding - Machine 11
+Case115,18,2012-03-09 01:15:00,Flat Grinding - Machine 11
+Case115,19,2012-03-09 09:05:00,Flat Grinding - Machine 11
+Case115,20,2012-03-09 10:17:00,Flat Grinding - Machine 11
+Case115,21,2012-03-11 07:00:00,Turning & Milling Q.C.
+Case115,22,2012-03-11 08:00:00,Turning & Milling Q.C.
+Case115,23,2012-03-11 09:46:00,Lapping - Machine 1
+Case115,24,2012-03-11 11:14:00,Lapping - Machine 1
+Case115,25,2012-03-11 20:41:00,Round Grinding - Machine 2
+Case115,26,2012-03-11 22:49:00,Round Grinding - Machine 2
+Case115,27,2012-03-11 22:50:00,Round Grinding - Machine 2
+Case115,28,2012-03-11 23:50:00,Round Grinding - Machine 2
+Case115,29,2012-03-11 23:51:00,Round Grinding - Machine 2
+Case115,30,2012-03-12 07:00:00,Round Grinding - Machine 2
+Case115,31,2012-03-12 07:00:00,Round Grinding - Q.C.
+Case115,32,2012-03-12 07:00:00,Round Grinding - Machine 2
+Case115,33,2012-03-12 07:51:00,Round Grinding - Q.C.
+Case115,34,2012-03-12 15:45:00,Round Grinding - Machine 2
+Case115,35,2012-03-12 16:07:00,Round Grinding - Machine 2
+Case115,36,2012-03-12 17:05:00,Round Grinding - Machine 2
+Case115,37,2012-03-12 17:06:00,Round Grinding - Machine 2
+Case115,38,2012-03-12 18:16:00,Round Grinding - Machine 2
+Case115,39,2012-03-21 10:57:00,Round Grinding - Q.C.
+Case115,40,2012-03-21 12:40:00,Round Grinding - Q.C.
+Case115,41,2012-03-21 12:41:00,Laser Marking - Machine 7
+Case115,42,2012-03-21 14:24:00,Laser Marking - Machine 7
+Case115,43,2012-03-25 09:00:00,Final Inspection Q.C.
+Case115,44,2012-03-25 10:00:00,Final Inspection Q.C.
+Case115,45,2012-03-26 00:00:00,Packing
+Case115,46,2012-03-26 01:00:00,Packing
+Case116,1,2012-02-22 06:50:00,Round Grinding - Manual
+Case116,2,2012-02-22 11:29:00,Round Grinding - Manual
+Case116,3,2012-02-22 11:29:00,Round Grinding - Manual
+Case116,4,2012-02-22 16:37:00,Round Grinding - Manual
+Case116,5,2012-02-22 16:39:00,Round Grinding - Manual
+Case116,6,2012-02-22 19:38:00,Round Grinding - Manual
+Case116,7,2012-02-23 00:00:00,Packing
+Case116,8,2012-02-23 01:00:00,Packing
+Case116,9,2012-02-23 07:01:00,Round Grinding - Manual
+Case116,10,2012-02-23 07:40:00,Final Inspection Q.C.
+Case116,11,2012-02-23 08:40:00,Final Inspection Q.C.
+Case116,12,2012-02-23 09:04:00,Round Grinding - Manual
+Case116,13,2012-02-23 09:05:00,Round Grinding - Manual
+Case116,14,2012-02-23 15:47:00,Round Grinding - Manual
+Case116,15,2012-02-26 15:49:00,Round Grinding - Manual
+Case116,16,2012-02-26 23:51:00,Round Grinding - Manual
+Case116,17,2012-02-27 16:00:00,Round Grinding - Manual
+Case116,18,2012-02-27 23:29:00,Round Grinding - Manual
+Case116,19,2012-02-28 15:45:00,Round Grinding - Manual
+Case116,20,2012-02-28 17:06:00,Round Grinding - Manual
+Case116,21,2012-02-29 00:00:00,Packing
+Case116,22,2012-02-29 01:00:00,Packing
+Case116,23,2012-02-29 07:00:00,Final Inspection Q.C.
+Case116,24,2012-02-29 07:59:00,Final Inspection Q.C.
+Case117,1,2012-02-23 00:00:00,Packing
+Case117,2,2012-02-23 00:00:00,Packing
+Case117,3,2012-02-23 01:00:00,Packing
+Case117,4,2012-02-23 01:00:00,Packing
+Case117,5,2012-02-23 09:46:00,Final Inspection - Weighting
+Case117,6,2012-02-23 11:01:00,Final Inspection - Weighting
+Case118,1,2012-03-25 00:00:00,Turning & Milling - Machine 6
+Case118,2,2012-03-25 01:15:00,Turning & Milling - Machine 6
+Case118,3,2012-03-28 20:10:00,Turning & Milling - Machine 6
+Case118,4,2012-03-28 22:11:00,Turning & Milling - Machine 6
+Case118,5,2012-03-28 22:12:00,Turning & Milling - Machine 6
+Case118,6,2012-03-29 01:29:00,Turning & Milling - Machine 6
+Case118,7,2012-03-30 10:18:00,Turning & Milling Q.C.
+Case118,8,2012-03-30 11:41:00,Turning & Milling Q.C.
+Case119,1,2012-03-20 07:12:00,Turning & Milling - Machine 10
+Case119,2,2012-03-20 15:57:00,Turning & Milling - Machine 10
+Case119,3,2012-03-21 14:35:00,Turning & Milling - Machine 10
+Case119,4,2012-03-21 15:30:00,Turning & Milling - Machine 10
+Case119,5,2012-03-22 07:18:00,Turning & Milling - Machine 10
+Case119,6,2012-03-22 17:48:00,Turning & Milling - Machine 10
+Case119,7,2012-03-23 01:16:00,Turning & Milling - Machine 10
+Case119,8,2012-03-23 06:51:00,Turning & Milling - Machine 10
+Case119,9,2012-03-25 07:19:00,Turning & Milling - Machine 10
+Case119,10,2012-03-25 17:45:00,Turning & Milling - Machine 10
+Case119,11,2012-03-26 08:30:00,Turning & Milling - Machine 10
+Case119,12,2012-03-26 18:00:00,Turning & Milling - Machine 10
+Case119,13,2012-03-27 08:17:00,Turning & Milling - Machine 10
+Case119,14,2012-03-27 17:47:00,Turning & Milling - Machine 10
+Case119,15,2012-03-27 21:36:00,Turning & Milling - Machine 10
+Case119,16,2012-03-28 04:21:00,Turning & Milling - Machine 10
+Case119,17,2012-03-28 07:20:00,Turning & Milling - Machine 10
+Case119,18,2012-03-28 17:37:00,Turning & Milling - Machine 10
+Case119,19,2012-03-28 21:14:00,Turning & Milling - Machine 10
+Case119,20,2012-03-29 06:42:00,Turning & Milling - Machine 10
+Case119,21,2012-03-29 07:18:00,Turning & Milling - Machine 10
+Case119,22,2012-03-29 17:18:00,Turning & Milling - Machine 10
+Case12,1,2012-01-26 02:38:00,Turning - Machine 9
+Case12,2,2012-01-26 07:00:00,Turning - Machine 9
+Case12,3,2012-01-26 08:17:00,Turning - Machine 9
+Case12,4,2012-01-26 10:09:00,Turning - Machine 9
+Case12,5,2012-01-26 11:11:00,Turning Q.C.
+Case12,6,2012-01-26 11:57:00,Turning Q.C.
+Case12,7,2012-01-26 12:00:00,Turning - Machine 9
+Case12,8,2012-01-26 20:29:00,Turning - Machine 9
+Case12,9,2012-01-26 20:31:00,Turning - Machine 9
+Case12,10,2012-01-27 06:18:00,Turning - Machine 9
+Case12,11,2012-01-27 07:04:00,Turning - Machine 9
+Case12,12,2012-01-27 12:51:00,Turning - Machine 9
+Case12,13,2012-01-29 09:06:00,Turning - Machine 9
+Case12,14,2012-01-29 15:58:00,Turning - Machine 9
+Case12,15,2012-01-29 16:11:00,Turning - Machine 9
+Case12,16,2012-01-29 21:59:00,Turning - Machine 9
+Case12,17,2012-01-29 22:00:00,Turning - Machine 9
+Case12,18,2012-01-29 23:45:00,Turning - Machine 9
+Case12,19,2012-01-30 06:57:00,Turning - Machine 9
+Case12,20,2012-01-30 09:41:00,Turning - Machine 9
+Case12,21,2012-01-30 10:29:00,Turning Q.C.
+Case12,22,2012-01-30 11:44:00,Turning Q.C.
+Case12,23,2012-02-05 00:00:00,Turning & Milling - Machine 9
+Case12,24,2012-02-05 01:15:00,Turning & Milling - Machine 9
+Case12,25,2012-02-05 14:00:00,Lapping - Machine 1
+Case12,26,2012-02-05 16:00:00,Lapping - Machine 1
+Case12,27,2012-02-06 00:00:00,Flat Grinding - Machine 11
+Case12,28,2012-02-06 01:15:00,Flat Grinding - Machine 11
+Case12,29,2012-02-06 09:53:00,Flat Grinding - Machine 11
+Case12,30,2012-02-06 12:40:00,Flat Grinding - Machine 11
+Case12,31,2012-02-06 12:47:00,Laser Marking - Machine 7
+Case12,32,2012-02-06 13:47:00,Laser Marking - Machine 7
+Case12,33,2012-02-07 00:00:00,Flat Grinding - Machine 11
+Case12,34,2012-02-07 00:00:00,Flat Grinding - Machine 11
+Case12,35,2012-02-07 01:15:00,Flat Grinding - Machine 11
+Case12,36,2012-02-07 01:15:00,Flat Grinding - Machine 11
+Case12,37,2012-02-07 13:42:00,Final Inspection Q.C.
+Case12,38,2012-02-07 13:48:00,Laser Marking - Machine 7
+Case12,39,2012-02-07 13:51:00,Flat Grinding - Machine 11
+Case12,40,2012-02-07 13:52:00,Flat Grinding - Machine 11
+Case12,41,2012-02-07 13:52:00,Flat Grinding - Machine 11
+Case12,42,2012-02-07 15:43:00,Flat Grinding - Machine 11
+Case12,43,2012-02-07 16:05:00,Final Inspection Q.C.
+Case12,44,2012-02-07 16:38:00,Laser Marking - Machine 7
+Case12,45,2012-02-13 15:50:00,Final Inspection Q.C.
+Case12,46,2012-02-13 17:50:00,Final Inspection Q.C.
+Case12,47,2012-02-14 10:56:00,Final Inspection Q.C.
+Case12,48,2012-02-14 12:39:00,Final Inspection Q.C.
+Case12,49,2012-02-16 15:32:00,Final Inspection Q.C.
+Case12,50,2012-02-16 15:33:00,Final Inspection Q.C.
+Case12,51,2012-02-17 00:00:00,Packing
+Case12,52,2012-02-17 01:00:00,Packing
+Case120,1,2012-02-26 11:19:00,Turning & Milling - Machine 5
+Case120,2,2012-02-26 16:08:00,Turning & Milling - Machine 5
+Case120,3,2012-02-26 16:18:00,Turning & Milling - Machine 5
+Case120,4,2012-02-26 23:26:00,Turning & Milling - Machine 5
+Case120,5,2012-02-27 00:38:00,Turning & Milling - Machine 5
+Case120,6,2012-02-27 06:55:00,Turning & Milling - Machine 5
+Case120,7,2012-03-08 08:35:00,Turning & Milling Q.C.
+Case120,8,2012-03-08 09:37:00,Turning & Milling Q.C.
+Case120,9,2012-03-08 13:32:00,Laser Marking - Machine 7
+Case120,10,2012-03-08 14:41:00,Laser Marking - Machine 7
+Case120,11,2012-03-13 15:52:00,Lapping - Machine 1
+Case120,12,2012-03-13 17:11:00,Lapping - Machine 1
+Case120,13,2012-03-14 07:00:00,Round Grinding - Machine 12
+Case120,14,2012-03-14 10:26:00,Round Grinding - Machine 12
+Case120,15,2012-03-14 10:26:00,Round Grinding - Machine 12
+Case120,16,2012-03-14 12:06:00,Round Grinding - Machine 12
+Case120,17,2012-03-14 12:22:00,Round Grinding - Machine 3
+Case120,18,2012-03-14 15:53:00,Round Grinding - Machine 3
+Case120,19,2012-03-14 15:54:00,Round Grinding - Machine 3
+Case120,20,2012-03-14 16:02:00,Round Grinding - Machine 3
+Case120,21,2012-03-14 16:31:00,Round Grinding - Machine 3
+Case120,22,2012-03-14 19:16:00,Round Grinding - Machine 3
+Case120,23,2012-03-15 07:56:00,Final Inspection Q.C.
+Case120,24,2012-03-15 09:11:00,Final Inspection Q.C.
+Case121,1,2012-03-05 22:00:00,Turning & Milling - Machine 5
+Case121,2,2012-03-05 23:59:00,Turning & Milling - Machine 5
+Case121,3,2012-03-05 23:59:00,Turning & Milling - Machine 5
+Case121,4,2012-03-06 00:00:00,Turning Q.C.
+Case121,5,2012-03-06 01:15:00,Turning Q.C.
+Case121,6,2012-03-06 03:00:00,Turning & Milling - Machine 5
+Case121,7,2012-03-06 06:57:00,Turning & Milling - Machine 5
+Case121,8,2012-03-06 07:17:00,Turning Q.C.
+Case121,9,2012-03-06 08:17:00,Turning Q.C.
+Case121,10,2012-03-06 10:23:00,Turning & Milling - Machine 5
+Case121,11,2012-03-14 11:17:00,Turning & Milling - Machine 4
+Case121,12,2012-03-14 11:19:00,Turning & Milling - Machine 4
+Case121,13,2012-03-14 12:34:00,Turning & Milling - Machine 4
+Case121,14,2012-03-14 15:11:00,Turning & Milling - Machine 4
+Case121,15,2012-03-14 19:56:00,Turning & Milling - Machine 4
+Case121,16,2012-03-14 21:55:00,Turning & Milling - Machine 4
+Case121,17,2012-03-14 21:56:00,Turning & Milling - Machine 4
+Case121,18,2012-03-14 23:32:00,Turning & Milling - Machine 4
+Case121,19,2012-03-15 09:00:00,Turning & Milling Q.C.
+Case121,20,2012-03-15 09:38:00,Turning & Milling Q.C.
+Case121,21,2012-03-16 11:15:00,Laser Marking - Machine 7
+Case121,22,2012-03-16 11:39:00,Laser Marking - Machine 7
+Case121,23,2012-03-18 08:16:00,Deburring - Manual
+Case121,24,2012-03-18 08:17:00,Deburring - Manual
+Case121,25,2012-03-18 08:19:00,Flat Grinding - Machine 11
+Case121,26,2012-03-18 09:52:00,Flat Grinding - Machine 11
+Case121,27,2012-03-18 09:52:00,Lapping - Machine 1
+Case121,28,2012-03-18 11:43:00,Lapping - Machine 1
+Case121,29,2012-03-19 08:03:00,Round Grinding - Machine 3
+Case121,30,2012-03-19 10:00:00,Round Grinding - Machine 3
+Case121,31,2012-03-19 10:02:00,Round Grinding - Machine 3
+Case121,32,2012-03-19 13:19:00,Round Grinding - Machine 3
+Case121,33,2012-03-21 08:31:00,Round Grinding - Q.C.
+Case121,34,2012-03-21 10:32:00,Round Grinding - Q.C.
+Case121,35,2012-03-27 10:45:00,Lapping - Machine 1
+Case121,36,2012-03-27 13:26:00,Lapping - Machine 1
+Case121,37,2012-03-28 06:00:00,Round Grinding - Machine 3
+Case121,38,2012-03-28 06:40:00,Round Grinding - Machine 3
+Case121,39,2012-03-28 07:00:00,Round Grinding - Machine 3
+Case121,40,2012-03-28 13:03:00,Round Grinding - Machine 3
+Case122,1,2012-03-04 10:14:00,Turning & Milling - Machine 5
+Case122,2,2012-03-04 12:57:00,Turning & Milling - Machine 5
+Case122,3,2012-03-04 12:58:00,Turning & Milling - Machine 5
+Case122,4,2012-03-04 17:59:00,Turning & Milling - Machine 5
+Case122,5,2012-03-05 06:53:00,Turning & Milling - Machine 5
+Case122,6,2012-03-05 12:14:00,Turning & Milling - Machine 5
+Case122,7,2012-03-05 12:15:00,Turning & Milling - Machine 5
+Case122,8,2012-03-05 13:20:00,Turning & Milling Q.C.
+Case122,9,2012-03-05 14:50:00,Turning & Milling Q.C.
+Case122,10,2012-03-05 15:56:00,Turning & Milling - Machine 5
+Case122,11,2012-03-07 07:39:00,Turning & Milling Q.C.
+Case122,12,2012-03-07 08:39:00,Turning & Milling Q.C.
+Case122,13,2012-03-07 09:08:00,Laser Marking - Machine 7
+Case122,14,2012-03-07 10:23:00,Laser Marking - Machine 7
+Case122,15,2012-03-07 10:58:00,Deburring - Manual
+Case122,16,2012-03-07 10:59:00,Flat Grinding - Machine 11
+Case122,17,2012-03-07 12:13:00,Deburring - Manual
+Case122,18,2012-03-07 12:14:00,Flat Grinding - Machine 11
+Case122,19,2012-03-07 15:06:00,Lapping - Machine 1
+Case122,20,2012-03-07 16:12:00,Lapping - Machine 1
+Case122,21,2012-03-07 20:11:00,Round Grinding - Machine 2
+Case122,22,2012-03-07 22:36:00,Round Grinding - Machine 2
+Case122,23,2012-03-07 22:36:00,Round Grinding - Machine 2
+Case122,24,2012-03-08 02:21:00,Round Grinding - Machine 2
+Case122,25,2012-03-13 09:00:00,Round Grinding - Q.C.
+Case122,26,2012-03-13 12:50:00,Round Grinding - Q.C.
+Case122,27,2012-03-13 14:00:00,Round Grinding - Q.C.
+Case122,28,2012-03-13 14:44:00,Round Grinding - Q.C.
+Case122,29,2012-03-21 00:00:00,Lapping - Machine 1
+Case122,30,2012-03-21 01:15:00,Lapping - Machine 1
+Case122,31,2012-03-21 08:25:00,Lapping - Machine 1
+Case122,32,2012-03-21 10:10:00,Lapping - Machine 1
+Case122,33,2012-03-21 13:52:00,Round Grinding - Machine 2
+Case122,34,2012-03-21 15:46:00,Round Grinding - Machine 2
+Case122,35,2012-03-21 16:20:00,Round Grinding - Machine 2
+Case122,36,2012-03-21 17:55:00,Round Grinding - Machine 2
+Case122,37,2012-03-21 17:56:00,Round Grinding - Machine 2
+Case122,38,2012-03-21 21:55:00,Round Grinding - Machine 2
+Case122,39,2012-03-23 10:30:00,Final Inspection Q.C.
+Case122,40,2012-03-23 12:51:00,Final Inspection Q.C.
+Case122,41,2012-03-25 07:00:00,Final Inspection Q.C.
+Case122,42,2012-03-25 08:40:00,Final Inspection Q.C.
+Case122,43,2012-03-25 08:40:00,Laser Marking - Machine 7
+Case122,44,2012-03-25 10:10:00,Laser Marking - Machine 7
+Case122,45,2012-03-25 20:08:00,Grinding Rework - Machine 12
+Case122,46,2012-03-25 21:55:00,Grinding Rework - Machine 12
+Case122,47,2012-03-26 07:00:00,Final Inspection Q.C.
+Case122,48,2012-03-26 08:40:00,Final Inspection Q.C.
+Case122,49,2012-03-27 10:30:00,Final Inspection Q.C.
+Case122,50,2012-03-27 11:00:00,Final Inspection Q.C.
+Case122,51,2012-03-28 00:00:00,Packing
+Case122,52,2012-03-28 01:00:00,Packing
+Case123,1,2012-03-14 00:00:00,Turning & Milling - Machine 4
+Case123,2,2012-03-14 01:15:00,Turning & Milling - Machine 4
+Case123,3,2012-03-14 23:30:00,Turning & Milling - Machine 4
+Case123,4,2012-03-15 02:00:00,Turning & Milling - Machine 4
+Case123,5,2012-03-15 02:00:00,Turning & Milling - Machine 4
+Case123,6,2012-03-15 06:30:00,Turning & Milling - Machine 4
+Case123,7,2012-03-15 07:31:00,Turning & Milling - Machine 4
+Case123,8,2012-03-15 08:51:00,Turning & Milling - Machine 4
+Case123,9,2012-03-15 10:39:00,Turning & Milling - Machine 4
+Case123,10,2012-03-15 17:56:00,Turning & Milling - Machine 4
+Case123,11,2012-03-15 19:49:00,Turning & Milling - Machine 4
+Case123,12,2012-03-16 01:27:00,Turning & Milling - Machine 4
+Case123,13,2012-03-16 01:28:00,Turning & Milling - Machine 4
+Case123,14,2012-03-16 03:30:00,Turning & Milling - Machine 4
+Case123,15,2012-03-16 03:31:00,Turning & Milling - Machine 4
+Case123,16,2012-03-16 04:47:00,Turning & Milling - Machine 4
+Case123,17,2012-03-16 07:10:00,Turning & Milling - Machine 4
+Case123,18,2012-03-16 07:12:00,Turning & Milling - Machine 4
+Case123,19,2012-03-16 07:12:00,Turning & Milling - Machine 4
+Case123,20,2012-03-16 08:31:00,Turning & Milling Q.C.
+Case123,21,2012-03-16 09:32:00,Turning & Milling Q.C.
+Case123,22,2012-03-16 12:48:00,Turning & Milling - Machine 4
+Case123,23,2012-03-17 13:22:00,Turning & Milling - Machine 4
+Case123,24,2012-03-18 00:56:00,Turning & Milling - Machine 4
+Case123,25,2012-03-18 00:57:00,Turning & Milling - Machine 4
+Case123,26,2012-03-18 00:57:00,Turning & Milling - Machine 4
+Case123,27,2012-03-18 02:26:00,Turning & Milling - Machine 4
+Case123,28,2012-03-18 06:55:00,Turning & Milling - Machine 4
+Case123,29,2012-03-18 07:00:00,Turning & Milling Q.C.
+Case123,30,2012-03-18 07:13:00,Turning & Milling - Machine 4
+Case123,31,2012-03-18 09:19:00,Turning & Milling - Machine 4
+Case123,32,2012-03-18 09:20:00,Turning & Milling - Machine 4
+Case123,33,2012-03-18 09:20:00,Turning & Milling - Machine 4
+Case123,34,2012-03-18 09:21:00,Turning & Milling - Machine 4
+Case123,35,2012-03-18 09:41:00,Turning & Milling Q.C.
+Case123,36,2012-03-18 11:30:00,Turning & Milling - Machine 4
+Case123,37,2012-03-18 15:03:00,Laser Marking - Machine 7
+Case123,38,2012-03-18 15:53:00,Laser Marking - Machine 7
+Case124,1,2012-03-20 06:59:00,Turning & Milling - Machine 4
+Case124,2,2012-03-20 14:34:00,Turning & Milling - Machine 4
+Case124,3,2012-03-20 14:35:00,Turning & Milling - Machine 4
+Case124,4,2012-03-20 15:58:00,Turning & Milling - Machine 4
+Case124,5,2012-03-20 15:59:00,Turning & Milling - Machine 4
+Case124,6,2012-03-20 17:54:00,Turning & Milling - Machine 4
+Case124,7,2012-03-20 17:54:00,Turning & Milling - Machine 4
+Case124,8,2012-03-20 22:36:00,Turning & Milling - Machine 4
+Case124,9,2012-03-21 12:28:00,Turning & Milling Q.C.
+Case124,10,2012-03-21 14:07:00,Turning & Milling Q.C.
+Case124,11,2012-03-21 16:01:00,Laser Marking - Machine 7
+Case124,12,2012-03-21 16:20:00,Laser Marking - Machine 7
+Case124,13,2012-03-22 07:32:00,Lapping - Machine 1
+Case124,14,2012-03-22 07:46:00,Lapping - Machine 1
+Case124,15,2012-03-23 10:31:00,Final Inspection Q.C.
+Case124,16,2012-03-23 12:16:00,Final Inspection Q.C.
+Case124,17,2012-03-25 10:00:00,Final Inspection Q.C.
+Case124,18,2012-03-25 10:15:00,Final Inspection Q.C.
+Case124,19,2012-03-26 00:00:00,Packing
+Case124,20,2012-03-26 01:00:00,Packing
