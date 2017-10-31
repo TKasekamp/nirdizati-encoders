@@ -19,7 +19,8 @@ def __encode_simple(data, prefix_length):
 
     for case in cases:
         df = data[data['case_id'] == case]
-        #event_length = df['event_nr'].iloc[0]
+        if max(df['event_nr']) < prefix_length:
+            continue
         event_length = prefix_length
         case_data = []
         case_data.append(case)

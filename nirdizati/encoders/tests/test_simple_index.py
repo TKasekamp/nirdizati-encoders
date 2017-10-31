@@ -16,14 +16,13 @@ class TestSimpleIndex(TestCase):
         self.assertEqual(5, df.columns.size)
 
     def test_prefix_length(self):
-        df = simple_index.encode_trace(prod_xes(), prefix_length=5)
+        df = simple_index.encode_trace(prod_xes(), prefix_length=3)
 
        # print df
         self.assertIn("prefix_1", df.columns.values)
         self.assertIn("prefix_2", df.columns.values)
         self.assertIn("prefix_3", df.columns.values)
-        self.assertEqual(7, df.columns.size)
-        self.assertEqual((3, 7), df.shape)
+        self.assertEqual((28, 7), df.shape)
 
     def test_shape(self):
         df = simple_index.encode_trace(prod_xes())
