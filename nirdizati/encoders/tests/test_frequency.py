@@ -5,11 +5,8 @@ from nirdizati.encoders.tests.setup import data_frame
 
 
 class TestFrequency(TestCase):
-    def setUp(self):
-        self.frame = data_frame()
-
     def test_has_columns(self):
-        df = frequency.encode_trace(self.frame)
+        df = frequency.encode_trace(data_frame())
         # Column check
         self.assertIn("case_id", df.columns.values)
         self.assertIn("event_nr", df.columns.values)
@@ -18,7 +15,7 @@ class TestFrequency(TestCase):
         self.assertEqual(16, df.columns.size)
 
     def test_shape(self):
-        df = frequency.encode_trace(self.frame)
+        df = frequency.encode_trace(data_frame())
 
         self.assertEqual((108, 16), df.shape)
         # Checking one row
