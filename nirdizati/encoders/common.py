@@ -10,9 +10,8 @@ def encode_boolean_frequency(data, encoding='boolean'):
     case_ids = get_cases(data)
 
     columns = np.append(events, list(DEFAULT_COLUMNS))
-    encoded_data = pd.DataFrame(columns=columns)
+    encoded_data = []
 
-    i = 0
     for case_id in case_ids:
         case = data[data['case_id'] == case_id]
         for j in range(0, max(case['event_nr'])):
@@ -26,10 +25,9 @@ def encode_boolean_frequency(data, encoding='boolean'):
             case_data.append(remaining_time)
             elapsed_time = calculate_elapsed_time(case, event_length)
             case_data.append(elapsed_time)
-            encoded_data.loc[i] = case_data
-            i = i + 1
+            encoded_data.append(case_data)
 
-    return encoded_data
+    return pd.DataFrame(columns=columns, data=encoded_data)
 
 
 def __append_item(df, event, event_length, encoding):
