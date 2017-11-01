@@ -53,8 +53,7 @@ class TestSimpleIndex(TestCase):
         """Encodes for next activity with prefix length"""
         df = simple_index.encode_trace(prod_xes(), prefix_length=6, next_activity=True)
 
-        print df
-        self.assertEqual((27, 8), df.shape)
+        self.assertEqual((29, 8), df.shape)
         self.assertNotIn("remaining_time", df.columns.values)
         self.assertNotIn("elapsed_time", df.columns.values)
         self.assertIn("label", df.columns.values)
