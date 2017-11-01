@@ -20,6 +20,7 @@ def __encode_simple(data, prefix_length):
     for case in cases:
         df = data[data['case_id'] == case]
         if max(df['event_nr']) < prefix_length:
+            # Skip greater values, otherwise index out of bounds
             continue
         event_length = prefix_length
         case_data = []
@@ -59,7 +60,7 @@ def __encode_next_activity(data, prefix_length):
         for e in case_events[:-1]:
             case_data.append(events.index(e) + 1)
 
-        for k in range(len(case_events), prefix_length +1):
+        for k in range(len(case_events), prefix_length):
             case_data.append(0)
 
         label = events.index(case_events[-1]) + 1
@@ -77,10 +78,10 @@ def __create_columns(prefix_length):
     return columns
 
 
-def __columns_next_activity(max_length):
+def __columns_next_activity(prefix_length):
     """Creates columns for next activity"""
     columns = ["case_id", "event_nr"]
-    for i in range(1, max_length):
+    for i in range(1, prefix_length):
         columns.append("prefix_" + str(i))
     columns.append("label")
     return columns
