@@ -14,9 +14,8 @@ def encode_boolean_frequency(data, encoding='boolean'):
 
     for case_id in case_ids:
         case = data[data['case_id'] == case_id]
-        for j in range(0, max(case['event_nr'])):
+        for event_length in range(1, max(case['event_nr'])+1):
             case_data = []
-            event_length = j + 1
             for event in events:
                 case_data.append(__append_item(case, event, event_length, encoding))
             case_data.append(case_id)

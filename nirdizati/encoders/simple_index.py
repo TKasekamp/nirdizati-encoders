@@ -49,7 +49,7 @@ def __encode_next_activity(data, prefix_length):
         case = data[data['case_id'] == case_id]
         event_length = prefix_length
         case_data = list()
-        case_data.append(case)
+        case_data.append(case_id)
         case_data.append(event_length)
 
         case_events = case[case['event_nr'] <= event_length]['activity_name'].tolist()
