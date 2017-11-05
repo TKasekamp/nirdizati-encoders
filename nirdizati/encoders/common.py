@@ -42,25 +42,25 @@ def encode_complex_index_latest(data, additional_columns, prefix_length=1, encod
     """Internal method for complex and index latest encoding.
         Diff in columns and case_data.
     """
-    cases = get_cases(data)
+    case_ids = get_cases(data)
     columns = __create_columns(prefix_length, additional_columns, encoding)
     encoded_data = []
 
-    for case in cases:
-        df = data[data['case_id'] == case]
+    for case_id in case_ids:
+        case = data[data['case_id'] == case_id]
         event_length = prefix_length
         # uncomment to encode whole log at each prefix
         # for event_length in range(1, prefix_length+1):
         case_data = []
-        case_data.append(case)
+        case_data.append(case_id)
         case_data.append(event_length)
-        remaining_time = calculate_remaining_time(df, event_length)
+        remaining_time = calculate_remaining_time(case, event_length)
         case_data.append(remaining_time)
-        elapsed_time = calculate_elapsed_time(df, event_length)
+        elapsed_time = calculate_elapsed_time(case, event_length)
         case_data.append(elapsed_time)
 
-        case_events = df[df['event_nr'] <= event_length]['activity_name'].tolist()
-        __add_case_data(df, case_events, case_data, additional_columns, encoding)
+        case_events = case[case['event_nr'] <= event_length]['activity_name'].tolist()
+        __add_case_data(case, case_events, case_data, additional_columns, encoding)
 
         encoded_data.append(case_data)
 
