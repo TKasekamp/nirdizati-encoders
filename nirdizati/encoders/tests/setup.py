@@ -5,6 +5,7 @@ from nirdizati.encoders import Encoder
 ENCODER = None
 SAMPLE_TRACE = None
 PROD_XES = None
+GENERAL_EXAMPLE = None
 
 
 def data_frame():
@@ -37,3 +38,10 @@ def prod_xes():
     if PROD_XES is None:
         PROD_XES = pd.read_csv(filepath_or_buffer='./log/production.xes.csv', header=0)
     return PROD_XES
+
+
+def general_example():
+    global GENERAL_EXAMPLE
+    if GENERAL_EXAMPLE is None:
+        GENERAL_EXAMPLE = pd.read_csv(filepath_or_buffer='./log/general_example.xes.csv', header=0)
+    return GENERAL_EXAMPLE
