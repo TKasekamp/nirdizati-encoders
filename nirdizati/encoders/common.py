@@ -7,29 +7,26 @@ import pandas as pd
 def encode_boolean_frequency(data, encoding='boolean'):
     """Internal method for both boolean and frequency. Only dif is __append_item"""
     events = get_events(data)
-    cases = get_cases(data)
+    case_ids = get_cases(data)
 
     columns = np.append(events, list(DEFAULT_COLUMNS))
-    encoded_data = pd.DataFrame(columns=columns)
+    encoded_data = []
 
-    i = 0
-    for case in cases:
-        df = data[data['case_id'] == case]
-        for j in range(0, max(df['event_nr'])):
+    for case_id in case_ids:
+        case = data[data['case_id'] == case_id]
+        for event_length in range(1, max(case['event_nr'])+1):
             case_data = []
-            event_length = j + 1
             for event in events:
-                case_data.append(__append_item(df, event, event_length, encoding))
-            case_data.append(case)
+                case_data.append(__append_item(case, event, event_length, encoding))
+            case_data.append(case_id)
             case_data.append(event_length)
-            remaining_time = calculate_remaining_time(df, event_length)
+            remaining_time = calculate_remaining_time(case, event_length)
             case_data.append(remaining_time)
-            elapsed_time = calculate_elapsed_time(df, event_length)
+            elapsed_time = calculate_elapsed_time(case, event_length)
             case_data.append(elapsed_time)
-            encoded_data.loc[i] = case_data
-            i = i + 1
+            encoded_data.append(case_data)
 
-    return encoded_data
+    return pd.DataFrame(columns=columns, data=encoded_data)
 
 
 def __append_item(df, event, event_length, encoding):
